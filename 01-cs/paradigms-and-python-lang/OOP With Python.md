@@ -1,4 +1,6 @@
-# OOP With Python
+---
+title: "OOP With Python"
+---
 
 ## Inherit
 
@@ -95,7 +97,7 @@ class Bank():
   def MonthlyPerformanceCalc(self): #(7)
     for c in self.accounts:
       c.PerformanceCalc()
-          
+
   def PrintAccountsExtract(self):
     for c in self.accounts:
       c.Extract()
@@ -120,12 +122,12 @@ Like several object-oriented languages, Python allows the creation of types of e
 Example:
 
 ```python
-class CustomizedException(exception): 
+class CustomizedException(exception):
   pass
-  
+
   def throws(): (2)
     raise CustomizedException
-    try: 
+    try:
       throws()
     except CustomizedException as ex:
       print ("Launched exception")

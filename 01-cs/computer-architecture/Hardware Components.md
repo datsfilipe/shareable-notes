@@ -1,4 +1,6 @@
-# Hardware Components
+---
+title: "Hardware Components"
+---
 
 ## Basic Structure of a Computer
 

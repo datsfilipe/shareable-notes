@@ -1,4 +1,6 @@
-# Hardware Fundamentals
+---
+title: "Hardware Fundamentals"
+---
 
 ## What Is It?
 

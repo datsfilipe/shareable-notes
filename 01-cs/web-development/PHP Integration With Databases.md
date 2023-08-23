@@ -1,4 +1,6 @@
-# PHP Integration With Databases
+---
+title: "PHP Integration With Databases"
+---
 
 PHP can access the SGDB of the database and make SQL queries. PHP, like operating systems (windows with .dll and linux based with .so files), have extensions. An example of PHP extensions are the SGDB drivers.
 

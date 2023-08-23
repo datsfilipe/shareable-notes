@@ -1,4 +1,6 @@
-# Digital Logic
+---
+title: "Digital Logic"
+---
 
 ## Basic Operations of Boolean Algebra
 
@@ -209,5 +211,5 @@ The truth table for the case:
 
 # Footer
 
-- **Class**: Computer Architecture 
+- **Class**: Computer Architecture
 - **Theme**: Digital Logic

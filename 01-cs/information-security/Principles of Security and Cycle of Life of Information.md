@@ -1,4 +1,6 @@
-# Principles of Security and Cycle of Life of Information
+---
+title: "Principles of Security and Cycle of Life of Information"
+---
 
 ## Security and Information
 

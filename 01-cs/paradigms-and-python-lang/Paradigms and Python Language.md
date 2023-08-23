@@ -1,4 +1,6 @@
-# Paradigms and Python Language
+---
+title: "Paradigms and Python Language"
+---
 
 ## Classifying Programming Languages
 

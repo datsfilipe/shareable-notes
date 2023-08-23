@@ -1,4 +1,6 @@
-# HTML
+---
+title: "HTML"
+---
 
 ## Web Page Structure
 
@@ -55,7 +57,7 @@ Html basic structure:
 <!doctype html>
 <html>
   <head>
-  </head>  
+  </head>
   <body>
   </body>
 </html>

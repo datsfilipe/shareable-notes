@@ -1,4 +1,6 @@
-# Structured Python
+---
+title: "Structured Python"
+---
 
 ## Structures of Decision and Loop in Python
 

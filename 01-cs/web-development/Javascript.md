@@ -1,4 +1,6 @@
-# Javascript
+---
+title: "Javascript"
+---
 
 ## Concepts and Syntax of Javascript
 

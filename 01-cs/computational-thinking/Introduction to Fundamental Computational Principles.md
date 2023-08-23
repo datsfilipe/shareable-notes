@@ -1,4 +1,6 @@
-# Introduction to Fundamental Computational Principles
+---
+title: "Introduction to Fundamental Computational Principles"
+---
 
 ## Essential Equation of Computers
 

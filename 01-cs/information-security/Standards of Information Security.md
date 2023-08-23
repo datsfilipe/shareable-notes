@@ -1,4 +1,6 @@
-# Standards of Information Security
+---
+title: "Standards of Information Security"
+---
 
 ## Reason and Benefits of the Standards ISO/IEC 27001 and 27002
 
@@ -99,5 +101,5 @@ Two words for both of the standards that are used a lot in them and become their
 
 # Footer
 
-- **Class**: Information Security 
+- **Class**: Information Security
 - **Theme**: Standards of Information Security

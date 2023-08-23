@@ -1,4 +1,6 @@
-# Data Representation
+---
+title: "Data Representation"
+---
 
 ## Computer Systems
 
@@ -28,7 +30,7 @@ In order to convert bytes or bits to bits or bytes, we use rule of three simple.
 To convert from one value to another, we need to multiply (choose the power of two or then for it). And we consider the distance between each, not the value itself.
 
 Ex: to convert from G to T, we multiply with negative power since the result will be tinier than the previous value. Here's 52,9 G to T:
-  - *52,9 x 10⁻³ = 0,0529 TB; see? the power is negative.* 
+  - *52,9 x 10⁻³ = 0,0529 TB; see? the power is negative.*
 
 On opposition, if the are converting to a lower unit abbreviation, then the power will be positive.
 
@@ -41,7 +43,7 @@ On opposition, if the are converting to a lower unit abbreviation, then the powe
 
 ### Numeric Systems
 
-Before everything: 
+Before everything:
 
 Numeric Base:
 - Decimal (0, 1, 2, 3, 4, 5, 6, 7, 8, 9): Most used numeric base;

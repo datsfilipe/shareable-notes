@@ -1,3 +1,7 @@
+---
+title: "Data Modeling: Logical & Physical Modeling"
+---
+
 # 01
 
 ## Primary Key

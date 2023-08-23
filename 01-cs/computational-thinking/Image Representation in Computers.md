@@ -1,4 +1,6 @@
-# Image Representation in Computers
+---
+title: "Image Representation in Computers"
+---
 
 ## Pixel Fundaments
 

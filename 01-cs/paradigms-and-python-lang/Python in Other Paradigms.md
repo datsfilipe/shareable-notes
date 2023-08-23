@@ -1,4 +1,6 @@
-# Python in Other Paradigms
+---
+title: "Python in Other Paradigms"
+---
 
 ## Functional Language in Python
 
@@ -175,11 +177,11 @@ Flask is a microframework for Python. It is very simple and easy to use.
 ```python
 from flask import Flask
 app = Flask(__name__)
- 
+
 @app.route('/')
 def hello_world():
   return "Hello world."
- 
+
 if __name__ == '__main__':
   app.run()
 ```
@@ -302,33 +304,33 @@ In this example, we will use a fictitious historical series of dengue cases in a
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 import pandas
- 
+
 ############# Preprocessing ###############
 # Collection and Integration
 file = pandas.read_csv('data_dengue.csv')
 
 years = file[['year']]
 cases = file[['cases']]
- 
+
 ############## Mining #################
 regr = LinearRegression()
 regr.fit(X=years, y=cases)
- 
+
 future_year = [[2018]]
 cases_2018 = rule.predict(future_year)
- 
+
 print('Cases expected for 2018 ->', int(cases_2018))
- 
+
 ############ Post Processing ################
 plt.scatter(years, cases, color='black')
 plt.scatter(future_year, 2018_cases, color='red')
 plt.plot(years, regr.predict(years), color='blue')
- 
+
 plt.xlabel('Years')
 plt.ylabel('Dengue cases')
 plt.xticks([2018])
 plt.yticks([int(2018_cases)])
- 
+
 plt.show()
 ```
 
@@ -344,41 +346,41 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier, export_text, plot_tree
 from sklearn.svm import SVC
- 
+
 ################## Preprocessing ###################
 # Collection and Integration
 iris = load_iris()
- 
+
 characteristics = iris.data
 labels = iris.target
- 
+
 print("Characteristics:\n", traits[:2])
 print("Labels:\n", labels[:2])
 print('################################################ #########')
- 
+
 # Partition the data
 carac_train, carac_test, rot_train, rot_test = train_test_split(characteristics, labels)
- 
+
 ################### Mining #####################
- 
+
 ############---------- Decision tree -----------############
 tree = DecisionTreeClassifier(max_depth=2)
 tree.fit(X=carac_train, y=rot_train)
- 
+
 rot_predicts = tree.predict(test_character)
 tree_accuracy = accuracy_score(test_rot, predicted_rot)
 ############-------- Vector Machine Support ------############
 clf = SVC()
 clf.fit(X=character_training, y=rot_training)
- 
+
 rot_predicts_svm = clf.predict(test_character)
 accuracy_svm = accuracy_score(test_rot, svm_predicted_rot)
- 
+
 ################ Post Processing #####################
 print("Decision Tree Accuracy:", round(tree_accuracy, 5))
 print("SVM Accuracy:", round(svm_accuracy, 5))
 print('################################################ #########')
- 
+
 r = export_text(tree, feature_names=iris['feature_names'])
 print("Tree structure")
 print(r)
@@ -399,18 +401,18 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
- 
+
 ################## Preprocessing ###################
 # Collection and Integration
 iris = load_iris()
- 
+
 characteristics = iris.data
- 
+
 ################### Mining #####################
 groups = KMeans(n_clusters=3)
 groups.fit(X=characteristics)
 labels = groups.labels_ # index of the group to which each sample belongs
- 
+
 ################ Post Processing #####################
 fig = plt.figure(1)
 ax = Axes3D(fig)
@@ -418,7 +420,7 @@ ax.set_xlabel('Sepal Length')
 ax.set_ylabel('Sepal Width')
 ax.set_zlabel('Petal Length')
 ax.scatter(features[:, 0], characteristics[:, 1], characteristics[:, 2], c=groups.labels_, edgecolor='k')
- 
+
 target = iris.target
 fig = plt.figure(2)
 ax = Axes3D(fig)
@@ -426,7 +428,7 @@ ax.set_xlabel('Sepal Length')
 ax.set_ylabel('Sepal Width')
 ax.set_zlabel('Petal Length')
 ax.scatter(features[:, 0], characteristics[:, 1], characteristics[:, 2], c=target, edgecolor='k')
- 
+
 plt.show()
 ```
 

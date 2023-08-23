@@ -1,4 +1,6 @@
-# Computational Thinking And Application In Knowledge Areas
+---
+title: "Computational Thinking And Application In Knowledge Areas"
+---
 
 ## Computational Thinking
 

@@ -1,4 +1,6 @@
-# Basic Python
+---
+title: "Basic Python"
+---
 
 ## Python Language and it's Characteristics
 

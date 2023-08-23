@@ -1,4 +1,6 @@
-# Computer Basis
+---
+title: "Computer Basis"
+---
 
 ## Computer Evolution
 

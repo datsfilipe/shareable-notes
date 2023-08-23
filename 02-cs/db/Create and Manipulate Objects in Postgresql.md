@@ -1,4 +1,8 @@
-# Architecture
+---
+title: "Create and Manipulate Objects in Postgresql"
+---
+
+## Architecture
 
 Postgresql uses client-server model.
 
@@ -18,7 +22,7 @@ This architecture allows the database and clients to be on different machines/lo
 
 - Postgresql supports multiple clients at the same time.
 
-# Managing Postgresql Database With psql
+## Managing Postgresql Database With psql
 
 ```sql
 dtsf=$ CREATE TABLE Client (
@@ -83,7 +87,7 @@ dtsf=$ SELECT * FROM client;
 (0 rows)
 ```
 
-# Constraints
+## Constraints
 
 ***What are constraints?***
 
@@ -99,9 +103,9 @@ dtsf=$ SELECT * FROM client;
 - **foreign key** - value(s) in specified column(s) must reference an existing record in another table (via it's primary key or some other unique constraint)
 - **check** - an expression is specified, which must evaluate to true for constraint to be satisfied
 
-# Transactions
+## Transactions
 
-## States of a Transaction
+### States of a Transaction
 
 - ***Active***: The transaction is running, executing queries (read and/or write).
 - ***Partially Committed***: The transaction has finished executing.
@@ -109,7 +113,7 @@ dtsf=$ SELECT * FROM client;
     * ***Failed***: If validation fails or the transaction is aborted, the transaction is failed.
 - ***Finished***: Transaction get out of the system.
 
-## Postgresql Transactions
+### Postgresql Transactions
 
 Transactions in Postgresql follows the structure:
 
@@ -121,7 +125,7 @@ ROLLBACK-- Rollback the transaction
 END-- End the transaction
 ```
 
-## Multiple Clients and Uncontrolled Transactions
+### Multiple Clients and Uncontrolled Transactions
 
 This scenario might bring the following problems:
 

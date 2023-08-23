@@ -1,4 +1,6 @@
-# CISC X RISC Architecture
+---
+title: "CISC X RISC Architecture"
+---
 
 ## CISC
 

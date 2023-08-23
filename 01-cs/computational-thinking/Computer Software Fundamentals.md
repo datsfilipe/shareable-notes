@@ -1,4 +1,6 @@
-# Computer Software Fundamentals
+---
+title: "Computer Software Fundamentals"
+---
 
 ## Basic Software Concepts
 

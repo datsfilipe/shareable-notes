@@ -1,4 +1,6 @@
-# Programming Notions: Examples With Digital Images Manipulation
+---
+title: "Programming Notions: Examples With Digital Images Manipulation"
+---
 
 ## Data Manipulation
 

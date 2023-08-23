@@ -1,4 +1,6 @@
-# Good Practices in Information Security
+---
+title: "Good Practices in Information Security"
+---
 
 Actions that help ensure information security:
 
