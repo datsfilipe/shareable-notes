@@ -1,4 +1,6 @@
-# Propositional Calculus
+---
+title: "Propositional Calculus"
+---
 
 ## Composed and Simple Propositions
 
