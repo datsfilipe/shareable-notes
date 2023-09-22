@@ -91,3 +91,7 @@ What paved the way for containerization was **cgroups**, which is a Linux kernel
 - You need the container runtime
 - With containers, you don't need guest OS, you just have the actual application and its dependencies, so it's much more lightweight and easier to scale
 - The left amount of resources are shared between the containers, so it's more efficient
+
+## References
+
+- [What is Virtualization - IBM](https://www.ibm.com/topics/virtualization)
