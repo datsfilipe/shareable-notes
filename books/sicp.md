@@ -2,6 +2,8 @@
 title: "Structure and Interpretation of Computer Programs"
 ---
 
+...
+
 ## Dediction x Foreword
 
 - Having fun is important
@@ -16,3 +18,14 @@ title: "Structure and Interpretation of Computer Programs"
 ## Preface 1st and 2nd Editions
 
 - "Mathematics provides a framework for dealing precisely with notions of “what is.” Computation provides a framework for dealing precisely with notions of “how to.”"
+
+## Elements of a programming language
+
+- Primitive expressions: Represent the simplest entities the language is concerned with
+- Means of combination: By which compound elements are built from simpler ones
+- Means of abstraction: By which compound elements can be named and manipulated as units
+
+In programming we deal with two kinds of elements: procedures and data (we'll se they're not so distinct). Informally:
+
+- Data is stuff we want to manipulate
+- Procedures are descriptions of the rules for manipulating that stuff
