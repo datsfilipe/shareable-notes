@@ -32,7 +32,7 @@ title: "digging-into-web3-and-blockchain-stuff"
 }
 ```
 - Transactions accumulates in blocks. Another analogy can be done with git. It's like if I created a new `branch` (block), added my changes to `commit` and push to remote, then I'll open a `PR` accumulate transactions in this until someone reviews it and `merge` into the `main` branch (chain).
-- Another analogy to understand a block is to visualize it as an amount of `hex` colors (each transaction) that are interligated until a root color that is generated using all the other ones, so if any color changes, the root color also changes and the `block` is invalid.
+- Another analogy to understand a block is to visualize it as an amount of `hex` colors (each transaction) that are interligated until a root color that is generated using all the other ones, so if any color changes, the root color also changes and the `block` is invalid. So it's basically like if we have unions of hashes that generates another, and then those have unions with other unions of hashes from others transactions, until all them converge into a main hash that represents the block.
 - Crypto miners are basically algorithms to find the correct hashes to assign a block in a blockchain that will be valid.
 - To avoid the easiness to assign blocks in Bitcoin blockchain for example, zeros are used as prefixes to the hashes, the aim is to only permit block assigns from 10 to 10 minutes.
 - **POW** vs **POS** mineration of crypto: in the first one the reward is when you find the hash, not very sustainable in some cases. In the second each miner puts his money in stake and if he's cheating he loses that money, so there's more incentive to do it correctly.
