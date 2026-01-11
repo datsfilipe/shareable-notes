@@ -1,5 +1,5 @@
 ---
-title: "Paradigms and Python Language"
+title: 'Paradigms and Python Language'
 ---
 
 ## Classifying Programming Languages
@@ -72,7 +72,7 @@ Util programming domains:
 - Reliability: Type verification, exception treatment, aliasing, readability and easy to write;
 - Price of: Training, write a program, compile program, execute program, implement the language, reliability and maintenance.
 
-*Python is a language with high readability, ease of writing, and reliability. Its cost is not high, because in addition to being open source, it is easy to learn.*
+_Python is a language with high readability, ease of writing, and reliability. Its cost is not high, because in addition to being open source, it is easy to learn._
 
 ## Paradigms and Their Characteristics
 
@@ -81,13 +81,13 @@ A paradigm groups languages with similar characteristics that emerged at the sam
 ### Imperative Paradigm
 
 - Structured Paradigm:
-  * Do not use unconditional branches (Goto, characteristic of languages like BASIC and early versions of COBOL);
-  * Develop programs by successive refinements (top down methodology), motivating the development of routines (procedures and functions) and the vision of the program starting from the general to the particular;
-  * Develop programs using three types of structures: sequential, conditional, and repetition;
-  * Aiming at efficiency, the structured paradigm is based on the principles of Von Neumann architecture, where:
-    * Programs and data reside in memory (during execution);
-    * Instructions and data travel from memory to CPU and vice versa;
-    * Results of operations travel from the CPU to memory.
+  - Do not use unconditional branches (Goto, characteristic of languages like BASIC and early versions of COBOL);
+  - Develop programs by successive refinements (top down methodology), motivating the development of routines (procedures and functions) and the vision of the program starting from the general to the particular;
+  - Develop programs using three types of structures: sequential, conditional, and repetition;
+  - Aiming at efficiency, the structured paradigm is based on the principles of Von Neumann architecture, where:
+    - Programs and data reside in memory (during execution);
+    - Instructions and data travel from memory to CPU and vice versa;
+    - Results of operations travel from the CPU to memory.
 - Object Oriented Paradigm: Through properties such as abstraction, encapsulation, inheritance and polymorphism, greater organization, reuse and extensibility of code and, consequently, easier programs to be written and maintained. This paradigm uses concepts of structured paradigm in the specification of commands and methods, by that it is considered an evolution of structured paradigm;
 - Concurrent Paradigm: Characterized when processes run simultaneously and compete for hardware resources (processors, disks and other peripherals), characteristics that are increasingly common in information systems. With one processor it will just compete for processor usage and resources, but with multiples processors, the processes will run in parallel (parallelism concept) and at the same time.
 
@@ -123,7 +123,7 @@ Steps:
 2. Interpret the instruction (conversion to machine language commands);
 3. Execute instruction.
 
-*Note that the procedure, described above, is very similar to that performed by computers that implement the Von Neumann machine, in the execution of an instruction, as follows:*
+_Note that the procedure, described above, is very similar to that performed by computers that implement the Von Neumann machine, in the execution of an instruction, as follows:_
 
 1. Get the next statement;
 2. CI → address of the next instruction. CI = instruction counter;

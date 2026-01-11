@@ -1,5 +1,5 @@
 ---
-title: "Data Modeling: Conceptual Modeling"
+title: 'Data Modeling: Conceptual Modeling'
 ---
 
 ## 01
@@ -34,12 +34,12 @@ Entities and relationships can have properties that are specified by the attribu
 
 #### Cardinality in Attributes
 
-| Min | Max | Meaning |
-| --- | --- | ------- |
-| 0 | 1 | Optional, Monovalued |
-| 0 | n | Optional, Multivalued |
-| 1 | 1 | Mandatory, Monovalued |
-| 1 | n | Mandatory, Multivalued |
+| Min | Max | Meaning                |
+| --- | --- | ---------------------- |
+| 0   | 1   | Optional, Monovalued   |
+| 0   | n   | Optional, Multivalued  |
+| 1   | 1   | Mandatory, Monovalued  |
+| 1   | n   | Mandatory, Multivalued |
 
 #### Composed Attributes
 

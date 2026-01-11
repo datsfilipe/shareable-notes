@@ -1,5 +1,5 @@
 ---
-title: "Standards of Information Security"
+title: 'Standards of Information Security'
 ---
 
 ## Reason and Benefits of the Standards ISO/IEC 27001 and 27002

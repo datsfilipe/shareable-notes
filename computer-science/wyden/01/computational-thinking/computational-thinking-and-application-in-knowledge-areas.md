@@ -1,5 +1,5 @@
 ---
-title: "Computational Thinking And Application In Knowledge Areas"
+title: 'Computational Thinking And Application In Knowledge Areas'
 ---
 
 ## Computational Thinking
@@ -31,7 +31,7 @@ Algorithm design is the process of elaborating the instructions that the machine
 
 ### Work Market
 
-Computational thinking is included into ***soft skills***. This means that it is not a technical skill, but it is a skill that is useful to work in the industry. It is highly used not just into tech jobs but also in the majority of jobs nowadays.
+Computational thinking is included into **_soft skills_**. This means that it is not a technical skill, but it is a skill that is useful to work in the industry. It is highly used not just into tech jobs but also in the majority of jobs nowadays.
 
 ## Computational Thinking In Creative Economy And Business
 

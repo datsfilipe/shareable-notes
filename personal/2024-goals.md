@@ -1,5 +1,5 @@
 ---
-title: "2024 Goals"
+title: '2024 Goals'
 ---
 
 - Land a programming job [ ]
@@ -17,15 +17,15 @@ title: "2024 Goals"
 - Do more OSS work [ ]
 - Create and finish more side projects [ ]
 - Topics to learn:
-    - Software architecuture [ ]
-    - AWS and DevOps [ ]
-    - Computer architecuture [ ]
-    - Interpreters and compilers [ ]
-    - Low Code [ ]
-    - Type Theory [ ]
+  - Software architecuture [ ]
+  - AWS and DevOps [ ]
+  - Computer architecuture [ ]
+  - Interpreters and compilers [ ]
+  - Low Code [ ]
+  - Type Theory [ ]
 - Books to read:
-    - Thus Spoke Zaratustra - Nietzsche [ ]
-    - Liquid Love - Zygmunt Bauman [ ]
-    - Start Sherlock Holmes from Arthur Conan Doyle [ ]
-    - Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman [ ]
-    - Crafting Interpreters - Robert Nystrom [ ]
+  - Thus Spoke Zaratustra - Nietzsche [ ]
+  - Liquid Love - Zygmunt Bauman [ ]
+  - Start Sherlock Holmes from Arthur Conan Doyle [ ]
+  - Structure and Interpretation of Computer Programs - Harold Abelson, Gerald Jay Sussman, Julie Sussman [ ]
+  - Crafting Interpreters - Robert Nystrom [ ]

@@ -1,14 +1,14 @@
 ---
-title: "Cloud Computing Fundamentals"
+title: 'Cloud Computing Fundamentals'
 ---
 
 ## Cloud Computing
 
-Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. *Ty Wikipedia.*
+Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. _Ty Wikipedia._
 
 ### In short:
 
-- Cloud users can store files, data and applications on remote servers and access this data with the help of the internet. 
+- Cloud users can store files, data and applications on remote servers and access this data with the help of the internet.
 - Therefore, users do not need to be in a certain location to access data and can retrieve it from anywhere.
 
 ### Utility computing
@@ -30,7 +30,7 @@ We can also say that cloud computing is the evolution of on-demand information t
 
 - **No Control**: The user has no control over the infrastructure, which can be a problem in some cases.
 - **Interruption**: If the provider suffers an interruption (energy, conectivity or even a cyber attack), the user will not be able to access the services.
-- **Security**: Attacks might happen to the provider, which is a risk to the user. Other than that, you can suffer from attacks  to other clients of the provider.
+- **Security**: Attacks might happen to the provider, which is a risk to the user. Other than that, you can suffer from attacks to other clients of the provider.
 
 ### Main Cloud Providers
 

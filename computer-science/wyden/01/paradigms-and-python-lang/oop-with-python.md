@@ -1,5 +1,5 @@
 ---
-title: "OOP With Python"
+title: 'OOP With Python'
 ---
 
 ## Inherit

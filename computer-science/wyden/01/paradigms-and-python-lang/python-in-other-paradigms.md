@@ -1,5 +1,5 @@
 ---
-title: "Python in Other Paradigms"
+title: 'Python in Other Paradigms'
 ---
 
 ## Functional Language in Python
@@ -186,7 +186,7 @@ if __name__ == '__main__':
   app.run()
 ```
 
-In the first line, we import the flask class, which is the framework's main class. It is from an instance of this class that we will create our web application. In line 2, an instance of the flask class is created, where we pass __name__ as an argument so that Flask can locate, in the application, static files, such as css and javascript, and template files (templates), if applicable.
+In the first line, we import the flask class, which is the framework's main class. It is from an instance of this class that we will create our web application. In line 2, an instance of the flask class is created, where we pass **name** as an argument so that Flask can locate, in the application, static files, such as css and javascript, and template files (templates), if applicable.
 
 The decorator @app.route('/') is used to define the route of the application. In this case, the route is the root of the application. The function hello_world() is the function that will be executed when the route is accessed. The function associated to a route should return something.
 
@@ -238,9 +238,9 @@ Models are html pages with steroids. We can use delimiters to insert dynamic con
     <h1>My Page</h1>
     <p>My name is {{ name }}.</p>
     {% if name == 'John' %}
-      <p>My name is John.</p>
+    <p>My name is John.</p>
     {% else %}
-      <p>My name is not John.</p>
+    <p>My name is not John.</p>
     {% endif %}
   </body>
 </html>
@@ -282,13 +282,13 @@ Classification Aims to discover a function capable of mapping (classifying) an i
 Linear regression It is a technique to estimate a variable from a function. Regression usually aims to find a value that was not computed initially.
 // Transform the above text into a table in markdown format, please copilot
 
-| | Unsupervised |
-| --- | --- |
+|                   | Unsupervised                                                                                                                                                                                                                                                                                                                                    |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Association rules | One of the most used data mining techniques for e-commerce, whose objective is to find rules for products purchased in the same transaction. That is, the presence of a product in a set implies the presence of other products in another set; with this, shopping sites send us additional shopping suggestions, based on what we are buying. |
-| Grouping | It brings together, in the same group, objects from a collection that maintain some degree of affinity. A function is used to maximize the similarity of objects of the same group and minimize between elements of other groups. |
-| | <p style="text-align: center; font-weight: bold;">Supervised</p> |
-| Classification | Aims to discover a function capable of mapping (classifying) an item into one of several predefined classes. If we manage to obtain the function that performs this mapping, any new occurrence can also be mapped, without the need for prior knowledge of its class. |
-| Linear regression | It is a technique to estimate a variable from a function. Regression usually aims to find a value that was not computed initially. |
+| Grouping          | It brings together, in the same group, objects from a collection that maintain some degree of affinity. A function is used to maximize the similarity of objects of the same group and minimize between elements of other groups.                                                                                                               |
+|                   | <p style="text-align: center; font-weight: bold;">Supervised</p>                                                                                                                                                                                                                                                                                |
+| Classification    | Aims to discover a function capable of mapping (classifying) an item into one of several predefined classes. If we manage to obtain the function that performs this mapping, any new occurrence can also be mapped, without the need for prior knowledge of its class.                                                                          |
+| Linear regression | It is a technique to estimate a variable from a function. Regression usually aims to find a value that was not computed initially.                                                                                                                                                                                                              |
 
 ### Post-processing
 

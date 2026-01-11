@@ -1,5 +1,5 @@
 ---
-title: "CISC X RISC Architecture"
+title: 'CISC X RISC Architecture'
 ---
 
 ## CISC
@@ -14,13 +14,13 @@ The CISC approach grew out of an evolution of processors. This acronym only bega
 
 ### Evolution
 
-| Processor | Year | Instruction Size | Number of Instructions | Register Size | Addressing |
-|-----------|------|------------------|------------------------|---------------|------------|
-| IBM 370   | 1970 | 2 to 6 bytes     | 208                    | 32 bits       | R-R; R-M; M-M |
-| VAX11     | 1978 | 2 to 57 bytes    | 303                    | 32 bits       | R-R; R-M; M-M |
-| Intel 8008 | 1972 | 1 to 3 bytes    | 49                     | 8 bits        | R-R; R-M; M-M |
-| Intel 286 | 1982 | 2 to 5 bytes     | 175                    | 16 bits       | R-R; R-M; M-M |
-| Intel 386 | 1985 | 2 to 16 bytes    | 312                    | 32 bits       | R-R; R-M; M-M |
+| Processor  | Year | Instruction Size | Number of Instructions | Register Size | Addressing    |
+| ---------- | ---- | ---------------- | ---------------------- | ------------- | ------------- |
+| IBM 370    | 1970 | 2 to 6 bytes     | 208                    | 32 bits       | R-R; R-M; M-M |
+| VAX11      | 1978 | 2 to 57 bytes    | 303                    | 32 bits       | R-R; R-M; M-M |
+| Intel 8008 | 1972 | 1 to 3 bytes     | 49                     | 8 bits        | R-R; R-M; M-M |
+| Intel 286  | 1982 | 2 to 5 bytes     | 175                    | 16 bits       | R-R; R-M; M-M |
+| Intel 386  | 1985 | 2 to 16 bytes    | 312                    | 32 bits       | R-R; R-M; M-M |
 
 ### Addressing
 
@@ -42,22 +42,22 @@ When fetching and writing in memory, the processor must perform a memory access,
 
 See examples of pipeline stages on Intel microarchitectures:
 
-| Microarchitecture | Pipeline Stages |
-|-------------------|-----------------|
-| P5 (Pentium)      | 5               |
-| P6 (Pentium 3)    | 14              |
-| P6 (Pentium Pro)  | 14              |
-| NetBurst (Willamette) | 20       |
-| NetBurst (Northwood)  | 20       |
-| NetBurst (Prescott)   | 31       |
-| NetBurst (Cedar Mill) | 31       |
-| Core               | 14              |
-| Broadwell          | 14 to 19        |
-| Sandy Bridge       | 14              |
-| Silvermont         | 14 to 17        |
-| Haswell            | 14 to 19        |
-| Skylake            | 14 to 19        |
-| Kabylake           | 14 to 19        |
+| Microarchitecture     | Pipeline Stages |
+| --------------------- | --------------- |
+| P5 (Pentium)          | 5               |
+| P6 (Pentium 3)        | 14              |
+| P6 (Pentium Pro)      | 14              |
+| NetBurst (Willamette) | 20              |
+| NetBurst (Northwood)  | 20              |
+| NetBurst (Prescott)   | 31              |
+| NetBurst (Cedar Mill) | 31              |
+| Core                  | 14              |
+| Broadwell             | 14 to 19        |
+| Sandy Bridge          | 14              |
+| Silvermont            | 14 to 17        |
+| Haswell               | 14 to 19        |
+| Skylake               | 14 to 19        |
+| Kabylake              | 14 to 19        |
 
 > **Note**: The problems were not solved with pipelining. The approach still presents bottlenecks, mainly in the memory access operations.
 
@@ -89,11 +89,11 @@ Steps of the pipeline:
 
 The execution of the instruction by clock pulse is shown below:
 
-| Clock Pulse | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|-------------|---|---|---|---|---|---|---|---|---|----|
-| Load        | **SI** | **ID** | **EXE** | **MA** | **MA** | **WB** | - | - | - | - |
-| Add         | - | **SI** | **ID** | + | + | **EXE** | **MA** | **WB** | - | - |
-| Store       | - | - | **SI** | **ID** | + | + | **EXE** | **MA** | **MA** | **WB** |
+| Clock Pulse | 1      | 2      | 3       | 4      | 5      | 6       | 7       | 8      | 9      | 10     |
+| ----------- | ------ | ------ | ------- | ------ | ------ | ------- | ------- | ------ | ------ | ------ |
+| Load        | **SI** | **ID** | **EXE** | **MA** | **MA** | **WB**  | -       | -      | -      | -      |
+| Add         | -      | **SI** | **ID**  | +      | +      | **EXE** | **MA**  | **WB** | -      | -      |
+| Store       | -      | -      | **SI**  | **ID** | +      | +       | **EXE** | **MA** | **MA** | **WB** |
 
 > **Note**: The pipeline is not always executed in this order. The order of execution depends on the instruction and the microarchitecture.
 
@@ -102,12 +102,12 @@ The execution of the instruction by clock pulse is shown below:
 Here are some architectures that use the RISC approach:
 
 | Processor | Year | Addressing | Registers | Instruction Size |
-|-----------|------|------------|-----------|------------------|
+| --------- | ---- | ---------- | --------- | ---------------- |
 | MIPS      | 1981 | R-R        | 04 to 32  | 4 bytes          |
 | ARM/A32   | 1983 | R-R        | 15        | 4 bytes          |
 | SPARC     | 1985 | R-R        | 32        | 4 bytes          |
 | PowerPC   | 1990 | R-R        | 32        | 4 bytes          |
-|  |  | R-R |  | 4 bytes |
+|           |      | R-R        |           | 4 bytes          |
 
 We can see two common features of the RISC approach:
 

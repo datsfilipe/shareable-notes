@@ -1,5 +1,5 @@
 ---
-title: "Principles of Security and Cycle of Life of Information"
+title: 'Principles of Security and Cycle of Life of Information'
 ---
 
 ## Security and Information
@@ -46,15 +46,15 @@ Ex: Firewall, cryptography, passwords, control access lists, digital readers, et
 
 Make use of simples math functions and a unique key for encryption and decryption.
 
-| Algorithm | Size of key |
-|---|---|
+| Algorithm      | Size of key         |
+| -------------- | ------------------- |
 | AES (Rijnadel) | 128, 192 e 256 bits |
-| Twofish |	128, 192 e 256 bits |
-| Serpent |	128, 192 e 256 bits |
-| Blowfish|	32 a 448-bits |
-| RC4 |	40-128 bits |
-| 3DES |168 bits |
-| IDEA |	128 bits |
+| Twofish        | 128, 192 e 256 bits |
+| Serpent        | 128, 192 e 256 bits |
+| Blowfish       | 32 a 448-bits       |
+| RC4            | 40-128 bits         |
+| 3DES           | 168 bits            |
+| IDEA           | 128 bits            |
 
 ### Asymmetric Cryptography
 

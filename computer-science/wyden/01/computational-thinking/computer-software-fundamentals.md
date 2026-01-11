@@ -1,5 +1,5 @@
 ---
-title: "Computer Software Fundamentals"
+title: 'Computer Software Fundamentals'
 ---
 
 ## Basic Software Concepts
@@ -40,7 +40,7 @@ The SO is also initialized by a program. This is the **firmware** of initializat
 
 here are also JIT's, those can read the source code to interpret and compile in the fastest way possible, and that works very well. Modern Internet browsers such as Firefox, Chrome, Microsoft Internet Explorer and Microsoft Edge now embed JIT's for JavaScript code. JIT examines dynamic code snippets (Javascript) that are being executed very frequently and compiles native code from these snippets in real time.
 
-*Obs: Even with JIT's, interpreted languages have lower speeds in execution than compiled languages.*
+_Obs: Even with JIT's, interpreted languages have lower speeds in execution than compiled languages._
 
 # Footer
 

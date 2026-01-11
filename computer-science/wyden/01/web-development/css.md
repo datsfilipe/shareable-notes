@@ -1,5 +1,5 @@
 ---
-title: "CSS"
+title: 'CSS'
 ---
 
 ## CSS Fundamentals
@@ -12,7 +12,7 @@ CSS or Cascading Style Sheets are, as the name says, sheets of style for the HTM
 
 ```css
 p /* selector */ {
-  color /* property */: white /* value */;
+  color/* property */: white /* value */;
 }
 ```
 
@@ -42,13 +42,13 @@ The precedence rule regarding forms of CSS inclusion follows this order:
 1. Internal and scoped styles take precedence over styles in external files;
 2. Inline styles take precedence over inner, scoped, and outer styles.
 
-*As for selectors, the precedence rule follows this order:*
+_As for selectors, the precedence rule follows this order:_
 
 - Element selectors (using only the tag name) have the lowest precedence, as they are very generic.
 - Class selectors have higher precedence than element selectors.
 - Identification selectors have higher precedence than class selectors.
 
-***Obs: the '!important' that can be used after value when applying styles will ignore this precedence to have higher priority.***
+**_Obs: the '!important' that can be used after value when applying styles will ignore this precedence to have higher priority._**
 
 ## CSS3
 
@@ -57,8 +57,8 @@ The precedence rule regarding forms of CSS inclusion follows this order:
 They can be:
 
 - HEX: #cccccc for example;
-- RGB: Defining *red, green and blue* inside *rgb()*, but can also be *rgba()*, where 'a' is the *alpha*, controlling opacity;
-- HSL: Is an system of cylindrical coordinates, with *hsl()* and *hsla()* notations.
+- RGB: Defining _red, green and blue_ inside _rgb()_, but can also be _rgba()_, where 'a' is the _alpha_, controlling opacity;
+- HSL: Is an system of cylindrical coordinates, with _hsl()_ and _hsla()_ notations.
 
 ### Fonts
 
@@ -78,7 +78,7 @@ There's four main elements of box models, they're: content, border, margin and p
 
 ### Pseudo Elements
 
-Like *after*, *before*, *selection*, *first-letter*, etc.
+Like _after_, _before_, _selection_, _first-letter_, etc.
 
 ### Layout
 

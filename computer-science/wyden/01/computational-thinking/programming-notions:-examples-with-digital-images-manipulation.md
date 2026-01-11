@@ -1,5 +1,5 @@
 ---
-title: "Programming Notions: Examples With Digital Images Manipulation"
+title: 'Programming Notions: Examples With Digital Images Manipulation'
 ---
 
 ## Data Manipulation
@@ -7,7 +7,7 @@ title: "Programming Notions: Examples With Digital Images Manipulation"
 Example: Manipulate a digital image with simple javascript code.
 
 ```javascript
-const img = SimpleImage("smallpanda.png");
+const img = SimpleImage('smallpanda.png');
 const pixel = img.getPixel(0, 0);
 pixel.setRed(255);
 print(img);

@@ -1,5 +1,5 @@
 ---
-title: "Graphics and Their Interpretations"
+title: 'Graphics and Their Interpretations'
 ---
 
 ## 1. Interval Concepts
@@ -64,5 +64,5 @@ In the special case that **$X$ and $Y$ are both subsets of $\mathbb {R}$**, the 
 ### 2.3. Maximum and Minimum
 
 - Notation: $f(x) > f(y) \forall y (-)$ (local maximum) and $f(x) < f(y) \forall y (-)$ (local minimum)
-    - $(-)$ means interval, because we are defining maximum and minimum for a certain interval.
-    - Sometimes we can assume that the minimum and maximum are global and not local.
+  - $(-)$ means interval, because we are defining maximum and minimum for a certain interval.
+  - Sometimes we can assume that the minimum and maximum are global and not local.

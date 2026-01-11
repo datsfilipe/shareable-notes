@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Pages With PHP"
+title: 'Dynamic Pages With PHP'
 ---
 
 ## Basic Concepts of PHP

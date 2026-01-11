@@ -1,5 +1,5 @@
 ---
-title: "Digital Logic"
+title: 'Digital Logic'
 ---
 
 ## Basic Operations of Boolean Algebra
@@ -38,12 +38,12 @@ flowchart LR
 
 Now see the truth table of the circuit with two entries and one output:
 
-| A | B | X
-|---|---|---
-| 0 | 0 | 1
-| 0 | 1 | 0
-| 1 | 0 | 1
-| 1 | 1 | 0
+| A   | B   | X   |
+| --- | --- | --- |
+| 0   | 0   | 1   |
+| 0   | 1   | 0   |
+| 1   | 0   | 1   |
+| 1   | 1   | 0   |
 
 ### Basic Logical Functions
 
@@ -61,14 +61,14 @@ It means it should light up if door is open **OR** the button is pressed.
 
 The truth table for this situation:
 
-| A | B | X = A + B
-|---|---|----------
-| 0 | 0 | 0
-| 0 | 1 | 1
-| 1 | 0 | 1
-| 1 | 1 | 1
+| A   | B   | X = A + B |
+| --- | --- | --------- |
+| 0   | 0   | 0         |
+| 0   | 1   | 1         |
+| 1   | 0   | 1         |
+| 1   | 1   | 1         |
 
-*Note: '+' sign here means **OR**.*
+_Note: '+' sign here means **OR**._
 
 #### AND
 
@@ -76,14 +76,14 @@ On an elevator, the engine will be activated only if the door is closed. The ele
 
 The truth table for this situation:
 
-| A | B | $X = A \cdot B$
-|---|---|----------
-| 0 | 0 | 0
-| 0 | 1 | 0
-| 1 | 0 | 0
-| 1 | 1 | 1
+| A   | B   | $X = A \cdot B$ |
+| --- | --- | --------------- |
+| 0   | 0   | 0               |
+| 0   | 1   | 0               |
+| 1   | 0   | 0               |
+| 1   | 1   | 1               |
 
-*Note: '$\cdot$' sign here means **AND**.*
+_Note: '$\cdot$' sign here means **AND**._
 
 #### NOT
 
@@ -93,10 +93,10 @@ The gate's expression: $X = \overline A$.
 
 The truth table for **NOT**:
 
-| A | X = $\overline A$
-|---|----------
-| 0 | 1
-| 1 | 0
+| A   | X = $\overline A$ |
+| --- | ----------------- |
+| 0   | 1                 |
+| 1   | 0                 |
 
 #### Another Logic Gates
 
@@ -106,12 +106,12 @@ It is possible to make the output of an **OR** gate the entry of the **NOT** gat
 
 The truth table:
 
-| A | B | A + B | $\overline{A + B}$
-|---|---|-------|------
-| 0 | 0 | 0 | 1
-| 0 | 1 | 1 | 0
-| 1 | 0 | 1 | 0
-| 1 | 1 | 1 | 0
+| A   | B   | A + B | $\overline{A + B}$ |
+| --- | --- | ----- | ------------------ |
+| 0   | 0   | 0     | 1                  |
+| 0   | 1   | 1     | 0                  |
+| 1   | 0   | 1     | 0                  |
+| 1   | 1   | 1     | 0                  |
 
 ##### NAND
 
@@ -119,12 +119,12 @@ The gate's expression: $X = \overline{A \cdot B}$.
 
 The gate's truth table:
 
-| A | B | $A /cdot B$ | $X = \overline{A \cdot B}$
-|---|---|-------|------
-| 0 | 0 | 0 | 1
-| 0 | 1 | 0 | 1
-| 1 | 0 | 0 | 1
-| 1 | 1 | 1 | 0
+| A   | B   | $A /cdot B$ | $X = \overline{A \cdot B}$ |
+| --- | --- | ----------- | -------------------------- |
+| 0   | 0   | 0           | 1                          |
+| 0   | 1   | 0           | 1                          |
+| 1   | 0   | 0           | 1                          |
+| 1   | 1   | 1           | 0                          |
 
 ##### XOR
 
@@ -134,12 +134,12 @@ The gate's expression: $X = A \oplus B$.
 
 The gate's truth table:
 
-| A | B | $X = A \oplus B$
-|---|---|------
-| 0 | 0 | 0
-| 0 | 1 | 1
-| 1 | 0 | 1
-| 1 | 1 | 0
+| A   | B   | $X = A \oplus B$ |
+| --- | --- | ---------------- |
+| 0   | 0   | 0                |
+| 0   | 1   | 1                |
+| 1   | 0   | 1                |
+| 1   | 1   | 0                |
 
 ##### XNOR
 
@@ -149,12 +149,12 @@ The gate's expression $X = A \odot B$.
 
 The gate's truth table:
 
-| A | B | $X = A \odot B$
-|---|---|------
-| 0 | 0 | 1
-| 0 | 1 | 0
-| 1 | 0 | 0
-| 1 | 1 | 1
+| A   | B   | $X = A \odot B$ |
+| --- | --- | --------------- |
+| 0   | 0   | 1               |
+| 0   | 1   | 0               |
+| 1   | 0   | 0               |
+| 1   | 1   | 1               |
 
 ## Logical Gates and Operations
 
@@ -166,16 +166,16 @@ $X = A + \overline B \cdot C$
 
 Truth table for the expression:
 
-| A | B | C | $\overline B$ | $\overline B \cdot C$ | $X = A + \overline B \cdot C$
-|---|---|---|---|---|------
-| 0 | 0 | 0 | 1 | 0 | 0
-| 0 | 0 | 1 | 1 | 1 | 1
-| 0 | 1 | 0 | 0 | 0 | 0
-| 0 | 1 | 1 | 0 | 0 | 0
-| 1 | 0 | 0 | 1 | 0 | 1
-| 1 | 0 | 1 | 1 | 1 | 1
-| 1 | 1 | 0 | 0 | 0 | 1
-| 1 | 1 | 1 | 0 | 1 | 1
+| A   | B   | C   | $\overline B$ | $\overline B \cdot C$ | $X = A + \overline B \cdot C$ |
+| --- | --- | --- | ------------- | --------------------- | ----------------------------- |
+| 0   | 0   | 0   | 1             | 0                     | 0                             |
+| 0   | 0   | 1   | 1             | 1                     | 1                             |
+| 0   | 1   | 0   | 0             | 0                     | 0                             |
+| 0   | 1   | 1   | 0             | 0                     | 0                             |
+| 1   | 0   | 0   | 1             | 0                     | 1                             |
+| 1   | 0   | 1   | 1             | 1                     | 1                             |
+| 1   | 1   | 0   | 0             | 0                     | 1                             |
+| 1   | 1   | 1   | 0             | 1                     | 1                             |
 
 ### Equivalence of Logical Functions
 
@@ -185,29 +185,29 @@ Example: $X = \overline{A \cdot A}$ is **equivalent** to $Y = \overline A$.
 
 The truth table for the case:
 
-| A | $A \cdot A$ | $Y = \overline A$ | $X = \overline{A \cdot A}$
-|---|---|---|---
-| 0 | 0 | 1 | 1
-| 1 | 1 | 0 | 0
+| A   | $A \cdot A$ | $Y = \overline A$ | $X = \overline{A \cdot A}$ |
+| --- | ----------- | ----------------- | -------------------------- |
+| 0   | 0           | 1                 | 1                          |
+| 1   | 1           | 0                 | 0                          |
 
 ## Logical Expressions and Diagrams
 
 ### Rules of Boolean Algebra
 
-| Rule | OR | AND
-|------|----|-----
-| 1. Identity | $X + 0 = X$ | $X \cdot 1 = X$
-| 2. Null Element | $X + 1 = 1$ | $X \cdot 0 = 0$
-| 3. Equivalence | $X + X = X$ | $X \cdot X = X$
-| 4. Complement | $X + \overline X = 1$ | $X \cdot \overline X = 0$
-| 5. Involution | $\overline X = X$ | $\overline X = X$
-| 6. Commutative | $X + Y = Y + X$ | $X \cdot Y = X \cdot Y$
-| 7. Associative | $(X + Y) + Z = X + (Y + Z)$ | $(X \cdot Y) \cdot Z = X \cdot (Y \cdot Z)$
-| 8. Distributive | $X + Y \cdot Z = (X + Y) \cdot (X + Z)$ | $X \cdot (Y + Z) = X \cdot Y + X \cdot Z$
-| 9. Absorption 1 | $X + X \cdot Y = X$ | $X \cdot (X + Y) = X$
-| 10. Absorption 2 | $X + \overline X \cdot Y = X + Y$ | $X \cdot (\overline X + Y) = X \cdot Y$
-| 11. Consensus | $X \cdot Y + \overline X \cdot Z + Y \cdot Z = X \cdot Y + \overline X \cdot Z$ | $(X + Y) \cdot (\overline X + Z) \cdot (Y + Z) = (X + Y) \cdot (\overline X + Z)$
-| 12. De Morgan | $\overline{X + Y} = \overline X \cdot \overline Y$ | $\overline{X \cdot Y} = \overline X + \overline Y$
+| Rule             | OR                                                                              | AND                                                                               |
+| ---------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| 1. Identity      | $X + 0 = X$                                                                     | $X \cdot 1 = X$                                                                   |
+| 2. Null Element  | $X + 1 = 1$                                                                     | $X \cdot 0 = 0$                                                                   |
+| 3. Equivalence   | $X + X = X$                                                                     | $X \cdot X = X$                                                                   |
+| 4. Complement    | $X + \overline X = 1$                                                           | $X \cdot \overline X = 0$                                                         |
+| 5. Involution    | $\overline X = X$                                                               | $\overline X = X$                                                                 |
+| 6. Commutative   | $X + Y = Y + X$                                                                 | $X \cdot Y = X \cdot Y$                                                           |
+| 7. Associative   | $(X + Y) + Z = X + (Y + Z)$                                                     | $(X \cdot Y) \cdot Z = X \cdot (Y \cdot Z)$                                       |
+| 8. Distributive  | $X + Y \cdot Z = (X + Y) \cdot (X + Z)$                                         | $X \cdot (Y + Z) = X \cdot Y + X \cdot Z$                                         |
+| 9. Absorption 1  | $X + X \cdot Y = X$                                                             | $X \cdot (X + Y) = X$                                                             |
+| 10. Absorption 2 | $X + \overline X \cdot Y = X + Y$                                               | $X \cdot (\overline X + Y) = X \cdot Y$                                           |
+| 11. Consensus    | $X \cdot Y + \overline X \cdot Z + Y \cdot Z = X \cdot Y + \overline X \cdot Z$ | $(X + Y) \cdot (\overline X + Z) \cdot (Y + Z) = (X + Y) \cdot (\overline X + Z)$ |
+| 12. De Morgan    | $\overline{X + Y} = \overline X \cdot \overline Y$                              | $\overline{X \cdot Y} = \overline X + \overline Y$                                |
 
 # Footer
 

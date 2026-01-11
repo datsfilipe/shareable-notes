@@ -1,5 +1,5 @@
 ---
-title: "Getting Deeper Into Functions"
+title: 'Getting Deeper Into Functions'
 ---
 
 ## Concept of Function (Domain, Images and Codomain)
@@ -12,7 +12,7 @@ A function is a relation between two sets, where every element of the first set 
 
 ![Function Image](./assets/02-02-math-function-image.svg)
 
-> *Notation: $f(x) = x^2 - 6x + 8$*
+> _Notation: $f(x) = x^2 - 6x + 8$_
 
 ## Injective Function
 
@@ -22,7 +22,7 @@ A function is injective if every element of the codomain is mapped to by at most
 
 - Ex:
 
-> *Notation: $f(x) = 2x + 1$*
+> _Notation: $f(x) = 2x + 1$_
 
 ## Surjective Function
 
@@ -30,7 +30,7 @@ A function is surjective if every element of the codomain is mapped to by at lea
 
 - Ex:
 
-> *Notation: $f(x) = x^2$*
+> _Notation: $f(x) = x^2$_
 
 ## Bijective Function
 
@@ -38,7 +38,7 @@ A function is bijective if it is both injective and surjective.
 
 - Ex:
 
-> *Notation: $f(x) = x$*
+> _Notation: $f(x) = x$_
 
 ## Inverse Function
 
@@ -60,7 +60,7 @@ A function is increasing if $x_1 < x_2 \implies f(x_1) < f(x_2)$
 
 - Ex:
 
-> *Notation: $f(x) = x$*
+> _Notation: $f(x) = x$_
 
 ## Decreasing Function
 
@@ -74,7 +74,7 @@ A period is the interval of a periodic function after which the function repeats
 
 > Notation: Being $T$ the period of the function and $T > 0$, $f(x) = f(x + T)$
 
-- *Note: Trigonometric functions are periodic.*
+- _Note: Trigonometric functions are periodic._
 
 If $f$ is a periodic function with period $T$, then $f$ is also periodic with period $kT$, where $k \in \mathbb{N}$.
 

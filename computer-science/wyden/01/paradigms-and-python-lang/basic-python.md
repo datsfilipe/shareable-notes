@@ -1,5 +1,5 @@
 ---
-title: "Basic Python"
+title: 'Basic Python'
 ---
 
 ## Python Language and it's Characteristics
@@ -18,6 +18,7 @@ Created by Guido van Rossum in 1990, it's a top level language that is becoming 
 - Support for Commercial Apps.
 
 In Python, different from other languages, the blocks of code aren't delimited with '{}', instead the ':' is what defines blocks of code, ex:
+
 ```python
 a = 0
 if a % 2 == 0:
@@ -27,7 +28,7 @@ else:
 print (a)
 ```
 
-Comments can be one line (using "//") or multi-lines (using "/*" to open comment and "\*/" to close).
+Comments can be one line (using "//") or multi-lines (using "/\*" to open comment and "\*/" to close).
 
 ## Variables
 
@@ -35,7 +36,7 @@ In Python it's not necessary to define types for variables, a simple `a = 0` wil
 
 Some words are considered reserved and cannot be used as python variable identifiers. They are: and, as, assert, break, class, continue, def, delif, else, except, exc, final, for, from, global, if, import, in, is, lambda, not, or , Print, Raise, Return, Try, While, With and Yield.
 
-*Obs: Python has no constant variables.*
+_Obs: Python has no constant variables._
 
 ### Binding
 
@@ -47,7 +48,7 @@ We call binding the association between programming entities. See some examples:
 
 Each language can have the following times for binding:
 
-- Language Project Time: The symbols are tied to the operator, such as * (multiplication), or the definition of the reserved words;
+- Language Project Time: The symbols are tied to the operator, such as \* (multiplication), or the definition of the reserved words;
 - Implementation Time: It usually occurs in compilers, such as the definition of range of values for a particular type;
 - Compilation Time: Association of the variable with your type;
 - Connection Time: The connection of several previously compiled modules, such as the call to an imported module function. In Python the connection is indicated by `import` keyword;
@@ -65,17 +66,19 @@ The connection time can be classified as "early binding" or "late binding". The 
 
 Every variable it's defined within a scope. We can call a variable `global` or `local` depending on the scope.
 
-- Global:  Variables defined in Python prompt or in modules outside of any functions can be considered global;
+- Global: Variables defined in Python prompt or in modules outside of any functions can be considered global;
 - Local: Variables defined within a scope, being the scope a function, class, whatever.
 
-*Obs: Using `global` keyword inside a scope can use the global variable instead of defining other, ex:*
+_Obs: Using `global` keyword inside a scope can use the global variable instead of defining other, ex:_
+
 ```python
 a = 10
 def changing ():
   global a
   a = 5
 ```
-*In the example, the variable `a` will be altered to have the value 5 instead of the first defined 10.*
+
+_In the example, the variable `a` will be altered to have the value 5 instead of the first defined 10._
 
 Types of scope:
 
@@ -85,7 +88,7 @@ Types of scope:
 ## Data Types and Expressions in Python
 
 - Numerics
-  - Integers: Boolean is a subtype of int. Python allows you to use Underline (_) as a thousand. There's no limit for variable size, the limit is the available memory in the machine. In a math description, it uses elements from the integers group (Z);
+  - Integers: Boolean is a subtype of int. Python allows you to use Underline (\_) as a thousand. There's no limit for variable size, the limit is the available memory in the machine. In a math description, it uses elements from the integers group (Z);
   - Floating Point Numbers: It uses elements from real numbers group (R). The dot is used to separate the integer part from the decimal part in float numbers;
   - Complex Numbers: Is utilized to manipulate complex numbers in `x + yj` format, where `x` is the real part and `y` is the imaginary part;
 - Sequential:
@@ -98,7 +101,7 @@ Types of scope:
 - Instances;
 - Exceptions.
 
-*Obs: There's a lot of operators for those types of data, but about precedence, in Python the programmer can define higher priority in operations by adding `()`*
+_Obs: There's a lot of operators for those types of data, but about precedence, in Python the programmer can define higher priority in operations by adding `()`_
 
 ### Boolean Operators
 
@@ -111,6 +114,7 @@ Types of scope:
 In an operation between two numbers, one integer and one float, the integer is converted by Python before the operation is done. Boolean values (true and false) are converted in math operations to their equivalent (1 and 0).
 
 It's also possible to explicitly convert value types using the constructor of the type, like:
+
 ```python
 float(2) // will become 2.0
 ```
@@ -119,9 +123,10 @@ float(2) // will become 2.0
 
 - Simple Assignment: ex: `a = 10`;
 - Multiple Assignment: ex `a, b = 10, 11`;
-- Composite Assignment: ex1: `a = 10`, `a = a + 1`; ex2: `a = 10`, `a += 1` (operators: +=, -=, *=, /=, %=);
+- Composite Assignment: ex1: `a = 10`, `a = a + 1`; ex2: `a = 10`, `a += 1` (operators: +=, -=, \*=, /=, %=);
 
 Variables value can be exchanged using multiple assignment instead of creating a value to hold the last value, ex:
+
 ```python
 a = 1
 b = 2
@@ -139,13 +144,16 @@ The `input()` is the entry method of Python, everything the user types for it wi
 ### Output
 
 The method `format()` can be used to format the output showed to user. Ex:
+
 ```python
 # {} indicates where the vars will enter
 print('{}:{}:{}'.format(hour, minute, second))
 # or
 print(f'{hour}:{minute}:{second}')
 ```
+
 Also can be used to define the width of the slot, like:
+
 ```python
 print('{:4},{:5}'.format(10,100))
 # '  10,  100'
@@ -153,7 +161,9 @@ print('{:4},{:5}'.format(10,100))
 print('{:8.5}'.format(10/3)) # 8 spaces but only 5 will be used
 # '   3.3333'
 ```
+
 The `print` method also can output lists and sequences just by passing them to it. Example:
+
 ```python
 L = [1,2,3,4,5,6,7,8]
 print L[::-1] # this will print reverse, like 8, 7, 6...

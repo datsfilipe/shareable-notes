@@ -1,5 +1,5 @@
 ---
-title: "Hardware Components"
+title: 'Hardware Components'
 ---
 
 ## Basic Structure of a Computer
@@ -142,8 +142,9 @@ Random memories can be writable (RAM) and read only (ROM).
 DRAM can be of two types, asynchronous (DRAM, FPM, BEDO, EDO), and synchronous (SDRAM, DDR, DDR2, DDR3, DDR4, DDR5).
 
 There is also a classification according to the type of memory encapsulation (module formats):
-  - SIMM (Single In Line Memory Module): The electrical contact on one side is the same as on the other side;
-  - DIMM (Dual In Line Memory Module): The contacts on both sides are independent.
+
+- SIMM (Single In Line Memory Module): The electrical contact on one side is the same as on the other side;
+- DIMM (Dual In Line Memory Module): The contacts on both sides are independent.
 
 ### I/O Subsystems
 
@@ -185,8 +186,8 @@ They have time as a fundamental parameter. Example: Assembly line for a car.
 
 Here, see differences between **tightly coupled systems** and **weak coupled systems**:
 
-- *Tightly Coupled Systems*: There are multiple processors sharing a single physical memory and I/O devices being managed by a single OS;
-- *Weak Coupled Systems*: There are two or more computer systems connected through communication lines.
+- _Tightly Coupled Systems_: There are multiple processors sharing a single physical memory and I/O devices being managed by a single OS;
+- _Weak Coupled Systems_: There are two or more computer systems connected through communication lines.
 
 # Footer
 

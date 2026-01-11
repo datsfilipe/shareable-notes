@@ -1,14 +1,14 @@
 ---
-title: "Introduction to Fundamental Computational Principles"
+title: 'Introduction to Fundamental Computational Principles'
 ---
 
 ## Essential Equation of Computers
 
 ### Fundamental Equation
 
-Computer = Absolute Capacity of Processing * Terrible Capacity of Thinking;
+Computer = Absolute Capacity of Processing \* Terrible Capacity of Thinking;
 
-*Obs: Clearly the guys didn't saw chatGPT in action!*
+_Obs: Clearly the guys didn't saw chatGPT in action!_
 
 It's essential to know what computers can do and cannot. Nowadays, even if the professional isn't in some technology role, technology is everywhere in work places.
 
@@ -20,7 +20,7 @@ So the main key here is that everyone can understand how a computer works. They'
 
 Even about artificial intelligence, the thing remains: the computer has the ability to carry out actions based on a defined logical sequence, with a set of variations and high speeds, as the storage and processing capacities are expanded. On the other hand, if the commands are not established, if the parameters are not arranged and structured, the machine reaches a limit.
 
-*Obs: in this topic one of the subjects addressed was the allegory of Plato.*
+_Obs: in this topic one of the subjects addressed was the allegory of Plato._
 
 ## Exploration Process of Computers Potential
 
@@ -51,8 +51,6 @@ By this law, the evolution of computers turns out decreasing their prices, makin
 ## Instruction Code of Computers
 
 ### Code in Execution
-
-
 
 # Footer
 

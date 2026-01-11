@@ -1,5 +1,5 @@
 ---
-title: "Jokenpo Arena v2"
+title: 'Jokenpo Arena v2'
 ---
 
 - Multiplayer

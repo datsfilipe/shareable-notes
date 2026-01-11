@@ -1,5 +1,5 @@
 ---
-title: "Threats and Vulnerabilities to Information Security"
+title: 'Threats and Vulnerabilities to Information Security'
 ---
 
 ## Concepts and Types of Threats and Vulnerabilities
@@ -22,33 +22,33 @@ Obviously, creating protections for everything is too much. Fires and floods can
 
 ### Types of Threats and Vulnerabilities - How to Prevent?
 
-*Obs: Remembering principles - confidentiality, availability and integrity.
+\*Obs: Remembering principles - confidentiality, availability and integrity.
 
 - Threat: Account invasion on WhatsApp; Recommendation is the use of two factor auth;
 
 More examples:
 
-| Security | Threat	| Prevent Method
-|----------|--------|---------------
-| Confidentiality	| Unauthorized access | Use of passwords
-| | Unauthorized access	| Use of encryption
-| | Loss of backup tapes during transport	|
-| Integrity	| Alteration of data by unauthorized person/software/process | Use of authentication methods
-| | Data corruption | Use of hashes
-| Availability | Phenomena arising from natural causes, such as fire and floods	| Use of backup servers and/or redundancies
-| | Denial of Service Attacks	| Use of Redundancy Servers
+| Security        | Threat                                                         | Prevent Method                            |
+| --------------- | -------------------------------------------------------------- | ----------------------------------------- |
+| Confidentiality | Unauthorized access                                            | Use of passwords                          |
+|                 | Unauthorized access                                            | Use of encryption                         |
+|                 | Loss of backup tapes during transport                          |
+| Integrity       | Alteration of data by unauthorized person/software/process     | Use of authentication methods             |
+|                 | Data corruption                                                | Use of hashes                             |
+| Availability    | Phenomena arising from natural causes, such as fire and floods | Use of backup servers and/or redundancies |
+|                 | Denial of Service Attacks                                      | Use of Redundancy Servers                 |
 
 Or using, instead of the principles, the logical or physical definition of threat:
 
-| Security | Threat | Prevent Method
-|----------|--------|---------------
-| Physical | Phenomena arising from natural causes, such as fire and flooding | Use of backup servers and/or redundancies
-| | Backup tapes lost during transport | Use of encryption
-| Logic | Data alteration by unauthorized person/software/process | Use of authentication methods
-| | Data corruption | Use of hashes
-| | Listen on call or network traffic | Use encryption
-| | Denial of Service Attacks | Use of Redundancy Servers
-| | Unauthorized access | Use of passwords
+| Security | Threat                                                           | Prevent Method                            |
+| -------- | ---------------------------------------------------------------- | ----------------------------------------- |
+| Physical | Phenomena arising from natural causes, such as fire and flooding | Use of backup servers and/or redundancies |
+|          | Backup tapes lost during transport                               | Use of encryption                         |
+| Logic    | Data alteration by unauthorized person/software/process          | Use of authentication methods             |
+|          | Data corruption                                                  | Use of hashes                             |
+|          | Listen on call or network traffic                                | Use encryption                            |
+|          | Denial of Service Attacks                                        | Use of Redundancy Servers                 |
+|          | Unauthorized access                                              | Use of passwords                          |
 
 Human threats are those that were caused by humans, and non-human threats are caused by nature or infrastructure problems. Non-human threats can also be classified into threats arising from disasters or infrastructure problems. Human threats can also be classified in two different types:
 
@@ -57,11 +57,11 @@ Human threats are those that were caused by humans, and non-human threats are ca
 
 Classifications of threats:
 
-| Classification type | Threat type
-|---------------------|------------
-| Regarding the type of asset involved | <ul><li>Related to Confidentiality</li><li>Related to Integrity</li><li>Related to Availability</li></ul>
-| As for the attack vector | <ul><li>Physical</li><li>Logic</li><li>Human</li><li>Not human</li></ul>
-| As for the phenomenon that gave rise (subclassification of non-humans) | <ul><li>natural disaster</li><li>Infrastructure</li></ul>
+| Classification type                                                    | Threat type                                                                                               |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Regarding the type of asset involved                                   | <ul><li>Related to Confidentiality</li><li>Related to Integrity</li><li>Related to Availability</li></ul> |
+| As for the attack vector                                               | <ul><li>Physical</li><li>Logic</li><li>Human</li><li>Not human</li></ul>                                  |
+| As for the phenomenon that gave rise (subclassification of non-humans) | <ul><li>natural disaster</li><li>Infrastructure</li></ul>                                                 |
 
 In the case of a flood in a data center, the main issue generated is availability. Depending on the controls (protections) chosen by the manager, even data integrity problems can be generated. Therefore, it is always necessary to carry out the layered approach. In this scenario, some simple controls could be developed such as:
 

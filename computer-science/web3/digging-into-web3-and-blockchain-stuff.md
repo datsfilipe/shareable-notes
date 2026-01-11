@@ -1,14 +1,14 @@
 ---
-title: "digging-into-web3-and-blockchain-stuff"
+title: 'digging-into-web3-and-blockchain-stuff'
 ---
 
 ## Crypto
 
 - South Korean in the middle of a polithical crisis couldn't take place soon in the cryptocurrencies ascenssion and that led an so much connected society to have the biggest number of investors in crypto in the world.
 - **ICO** stands for Initial Coin Offer, it's a cheaper alternative for IPO's. Basically investors could by "Tokens" or "Security tokens" in the hope that it'll have a higher value in the future or to exchange for company's products/services.
-    - There's no intermediary taxes (banks, brokers).
-    - Of course, the token will only has value on the network it operates.
-    - Security Tokens: the owners of these tokens have a stake in an asset (that has real value such as equity, a company, real estate, etc.). Owners receive a share from the profits of the asset; like owning stock from the company.
+  - There's no intermediary taxes (banks, brokers).
+  - Of course, the token will only has value on the network it operates.
+  - Security Tokens: the owners of these tokens have a stake in an asset (that has real value such as equity, a company, real estate, etc.). Owners receive a share from the profits of the asset; like owning stock from the company.
 - **DAO** stands for Descentralized Autonomous Organization. A structure with no central authority. Members of a DAO own **tokens** of the DAO. Those members are like **shareholders** and they can vote on initiatives.
 
 ## Blockchain
@@ -25,11 +25,12 @@ title: "digging-into-web3-and-blockchain-stuff"
 - Cryptographic hashes are the essence of blockchain addresses.
 - Digest is essentially taking **ANYTHING** and generate a digital impression (cryptographic hash) with it.
 - Transactions are basically a structure like ```json
-{
+  {
   "from": "0xaaaaaaaaaaa",
   "to": "0xbbbbbbbbbbb",
   "value": 0.22
-}
+  }
+
 ```
 - Transactions accumulates in blocks. Another analogy can be done with git. It's like if I created a new `branch` (block), added my changes to `commit` and push to remote, then I'll open a `PR` accumulate transactions in this until someone reviews it and `merge` into the `main` branch (chain).
 - Another analogy to understand a block is to visualize it as an amount of `hex` colors (each transaction) that are interligated until a root color that is generated using all the other ones, so if any color changes, the root color also changes and the `block` is invalid. So it's basically like if we have unions of hashes that generates another, and then those have unions with other unions of hashes from others transactions, until all them converge into a main hash that represents the block.
@@ -44,3 +45,4 @@ There was a discussion regarding the use of blockchains for political elections 
 # References
 
 - [@akitando on YouTube about blockchain & crypto [PT-BR]](https://www.youtube.com/watch?v=BEaVdiTiiH4&list=PL9vIjH64-q-v4vf9XtHzdS_ffycQ7w5DC&index=1)
+```

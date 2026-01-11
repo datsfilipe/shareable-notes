@@ -1,5 +1,5 @@
 ---
-title: "Parallel Processing"
+title: 'Parallel Processing'
 ---
 
 ## Superscalar Processors and Pipelines

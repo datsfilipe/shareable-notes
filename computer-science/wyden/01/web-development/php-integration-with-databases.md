@@ -1,5 +1,5 @@
 ---
-title: "PHP Integration With Databases"
+title: 'PHP Integration With Databases'
 ---
 
 PHP can access the SGDB of the database and make SQL queries. PHP, like operating systems (windows with .dll and linux based with .so files), have extensions. An example of PHP extensions are the SGDB drivers.
@@ -8,20 +8,20 @@ PHP can access the SGDB of the database and make SQL queries. PHP, like operatin
 
 ### PDO Available Drivers
 
-| Driver | Supported SGBD
-|--------|---------------
-| PDO_CUBRID | Cubrid
-| PDO_DBLIB | FreeTDS / Microsoft SQL Server / Sybase
-| PDO_FIREBIRD | Firebird
-| PDO_IBM | IBM DB2
-| PDO_INFORMIX | IBM Informix Dynamic Server
-| PDO_MYSQL | MySQL 3.x/4.x/5.x
-| PDO_OCI | Oracle Call Interface
-| PDO_ODBC | ODBC v3 (IBM DB2, unixODBC e win32 ODBC)
-| PDO_PGSQL | PostgreSQL
-| PDO_SQLITE | SQLite 3 e SQLite 2
-| PDO_SQLSRV | Microsoft SQL Server / SQL Azure
-| PDO_4D | 4D
+| Driver       | Supported SGBD                           |
+| ------------ | ---------------------------------------- |
+| PDO_CUBRID   | Cubrid                                   |
+| PDO_DBLIB    | FreeTDS / Microsoft SQL Server / Sybase  |
+| PDO_FIREBIRD | Firebird                                 |
+| PDO_IBM      | IBM DB2                                  |
+| PDO_INFORMIX | IBM Informix Dynamic Server              |
+| PDO_MYSQL    | MySQL 3.x/4.x/5.x                        |
+| PDO_OCI      | Oracle Call Interface                    |
+| PDO_ODBC     | ODBC v3 (IBM DB2, unixODBC e win32 ODBC) |
+| PDO_PGSQL    | PostgreSQL                               |
+| PDO_SQLITE   | SQLite 3 e SQLite 2                      |
+| PDO_SQLSRV   | Microsoft SQL Server / SQL Azure         |
+| PDO_4D       | 4D                                       |
 
 The connection is made like this (only changing database name for the one you want to use): `$dsn = new PDO("mysql:host=localhost;dbname=test", $user, $pass);`
 

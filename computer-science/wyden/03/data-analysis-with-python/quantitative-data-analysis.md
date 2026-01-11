@@ -1,25 +1,25 @@
 ---
-title: "Quantitative Data Analysis With Python"
+title: 'Quantitative Data Analysis With Python'
 ---
 
 ## Introduction
 
 - column graph: value x quantitative / qualitative
 - how variables are classified:
-    - quantitative
-        - discrete
-            - which we can count
-            - (e.g. number of children, number of voters, etc)
-        - continues
-            - which we can't count
-            - (e.g. height, temperature, etc)
-    - qualitative
-        - nominal
-            - no order indication
-            - (e.g. sexuality, civil state, etc)
-        - ordinal
-            - has order indication
-            - (e.g. age group, QI, etc)
+  - quantitative
+    - discrete
+      - which we can count
+      - (e.g. number of children, number of voters, etc)
+    - continues
+      - which we can't count
+      - (e.g. height, temperature, etc)
+  - qualitative
+    - nominal
+      - no order indication
+      - (e.g. sexuality, civil state, etc)
+    - ordinal
+      - has order indication
+      - (e.g. age group, QI, etc)
 
 ## Basic Concepts
 
@@ -42,7 +42,6 @@ title: "Quantitative Data Analysis With Python"
 - Total Amplitude
 
 > Difference between the biggest and lowest values presented in the data set.
-
 
 ## Graphics
 
@@ -78,15 +77,15 @@ $$
 
 - e.g.
 
-| Class | $F_{i}$ | $X_{i}$ | $X_{i}F_{i}$ |
-|--- | --- |--- | --- | 
-| 2,0 $\vdash$ 2,5 | 2 | 2,25 | 4,5 |
-| 2,5 $\vdash$ 3,0 | 4 | 2,75 | 11 |
-| 3,0 $\vdash$ 3,5 | 7 | 3,25 | 22,75 |
-| 3,5 $\vdash$ 4,0 | 5 | 3,75 | 18,75 |
-| 4,0 $\vdash$ 4,5 | 5 | 4,25 | 21,25 |
-| 4,5 $\vdash$ 5,0 | 7 | 4,75 | 33,25 |
-| Sum | 30 | - | 111,5 |
+| Class            | $F_{i}$ | $X_{i}$ | $X_{i}F_{i}$ |
+| ---------------- | ------- | ------- | ------------ |
+| 2,0 $\vdash$ 2,5 | 2       | 2,25    | 4,5          |
+| 2,5 $\vdash$ 3,0 | 4       | 2,75    | 11           |
+| 3,0 $\vdash$ 3,5 | 7       | 3,25    | 22,75        |
+| 3,5 $\vdash$ 4,0 | 5       | 3,75    | 18,75        |
+| 4,0 $\vdash$ 4,5 | 5       | 4,25    | 21,25        |
+| 4,5 $\vdash$ 5,0 | 7       | 4,75    | 33,25        |
+| Sum              | 30      | -       | 111,5        |
 
 $$
 \overline{X} = \frac{\displaystyle\sum_{i=1}^n X_{i}F_{i}}{n} = \frac{111,5}{30} = 3,72
@@ -129,6 +128,7 @@ $$
 $$
 M_{d} = L_{M_{d}} + \Bigl( \frac{E_{M_{d}} - F_{aac}}{F_{M_{d}}} \Bigr) \space \ast\space h
 $$
+
 > - $L_{M_{d}} =$ inferior limit of median class.
 > - $F_{aac} =$ accumulated frequency before median class.
 > - $F_{M_{d}} =$ absolute frequency of median class.
@@ -151,7 +151,7 @@ $$
 
 > - $L_{I_{M_{o}}} =$ inferior limit of modal class.
 > - $\varDelta_{1} =$ absolute frequency of modal class minus absolute frequency of class immediately before.
- > - $\varDelta_{2} =$ absolute frequency of modal class minus absolute frequency of class immediately after.
+> - $\varDelta_{2} =$ absolute frequency of modal class minus absolute frequency of class immediately after.
 
 ## Separatrices
 

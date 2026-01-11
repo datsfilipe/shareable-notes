@@ -1,5 +1,5 @@
 ---
-title: "Javascript"
+title: 'Javascript'
 ---
 
 ## Concepts and Syntax of Javascript
@@ -16,7 +16,7 @@ With Javascript it is possible to add, modify (styles for example), and even man
 
 Can be done by `<script>` tag or by adding an external archive with `.js` extension.
 
-*Note: XMLHttpRequest is an old interface for making asynchronous requests in js, before `fetch`. And AJAX stands for Asynchronous JAvascript and XML.*
+_Note: XMLHttpRequest is an old interface for making asynchronous requests in js, before `fetch`. And AJAX stands for Asynchronous JAvascript and XML._
 
 # Footer
 

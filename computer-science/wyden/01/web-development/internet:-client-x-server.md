@@ -1,5 +1,5 @@
 ---
-title: "Internet: Client X Server"
+title: 'Internet: Client X Server'
 ---
 
 ## Client X Server Model

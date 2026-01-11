@@ -1,31 +1,31 @@
 ---
-title: "Binary Search"
+title: 'Binary Search'
 ---
 
-- Big O: *O(log n)*
+- Big O: _O(log n)_
 
 - Notes:
-    - Sorted array is a must
-    - `[low,high)` (low always inclusive, high always exclusive)
+  - Sorted array is a must
+  - `[low,high)` (low always inclusive, high always exclusive)
 
 ```ts
 export default function bs_list(haystack: number[], needle: number): boolean {
   let low = 0;
-  let high = haystack.length
+  let high = haystack.length;
 
   do {
-    const mid = Math.floor(low + (high - low) / 2)
-    const value = haystack[mid]
+    const mid = Math.floor(low + (high - low) / 2);
+    const value = haystack[mid];
 
     if (value === needle) {
-      return true
+      return true;
     } else if (value < needle) {
-      low = mid + 1
+      low = mid + 1;
     } else {
-      high = mid
+      high = mid;
     }
-  } while (low < high)
+  } while (low < high);
 
-  return false
+  return false;
 }
 ```

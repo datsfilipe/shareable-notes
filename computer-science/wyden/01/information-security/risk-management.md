@@ -1,5 +1,5 @@
 ---
-title: "Risk Management"
+title: 'Risk Management'
 ---
 
 ## Vulnerability, Threat, and Attacks
@@ -26,9 +26,9 @@ Threats are the potential for harm to the company's assets. Threats can be inter
 
 Controls are the company's actions to protect the company's assets from threats. Controls can be physical or logical. Controls can be preventative or detective. Controls can be manual or automated.
 
-| Threats | Vulnerabilities | Control measures |
-| --- | --- | --- |
-| Logic | Operating system issues; Application failures; Dangerous web sites. | Antivirus installation; Firewall; Access control list; Operating system update. |
+| Threats | Vulnerabilities                                                                                        | Control measures                                                                                                            |
+| ------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Logic   | Operating system issues; Application failures; Dangerous web sites.                                    | Antivirus installation; Firewall; Access control list; Operating system update.                                             |
 | Physics | Lack of identification of visitors to the company; Loose wires; Data center room accessible to anyone. | Installation of security cameras; Access to the room by biometric control; Raised floor against floods; lightning rod; UPS. |
 
 ### Incident

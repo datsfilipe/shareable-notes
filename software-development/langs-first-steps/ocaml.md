@@ -1,5 +1,5 @@
 ---
-title: "My first day with OCaml"
+title: 'My first day with OCaml'
 ---
 
 ## Variables
@@ -23,7 +23,7 @@ We can do something like this:
 let x = 50 in x * x;;
 ```
 
-> *Obs*: It will return `2500`. But `x` is not defined outside of `in` block. So, we can't use `x` outside of `in` block.
+> _Obs_: It will return `2500`. But `x` is not defined outside of `in` block. So, we can't use `x` outside of `in` block.
 > If you try to print out `x` value, you will have an error.
 
 ## Functions
@@ -50,7 +50,7 @@ let rec range a b =
     else a :: range (a + 1) b;;
 ```
 
-> *Obs*: The difference between `let` and `let rec` is that if we have used `let` we couldn't use `range` function inside of `range` function, we would have an error.
+> _Obs_: The difference between `let` and `let rec` is that if we have used `let` we couldn't use `range` function inside of `range` function, we would have an error.
 
 ## Float x Int
 
@@ -62,7 +62,7 @@ let y = 2.0;;
 let z = float_of_int x +. y;;
 ```
 
-> *Obs*: The `+.` operator is used to sum `float` numbers. If you try to sum `int` numbers with `+.` operator, you will have an error. The same for the otherwise case.
+> _Obs_: The `+.` operator is used to sum `float` numbers. If you try to sum `int` numbers with `+.` operator, you will have an error. The same for the otherwise case.
 
 ## Pattern Matching
 
@@ -75,7 +75,7 @@ let rec factorial n =
     | _ -> n * factorial (n - 1);;
 ```
 
-> *Obs*: The `_` is used to match any value.
+> _Obs_: The `_` is used to match any value.
 > We could replace the last line with `| x -> x * factorial (x - 1)`. It would be the same.
 > The `x` is a variable that receives the value of `n` in the case.
 > Of course `x` doesn't exist outside of the the case.
@@ -88,7 +88,7 @@ let rec factorial = function
     | n -> n * factorial (n - 1);;
 ```
 
-> *Obs*: The `function` keyword introduces pattern matching directly.
+> _Obs_: The `function` keyword introduces pattern matching directly.
 > The parameter is not named, but we can use it in the cases (hmm).
 
 ## Lists
@@ -145,7 +145,7 @@ val total : int list -> int = <fun>
 - : int = 13
 ```
 
-> *Obs*: The `h` is the head and the `t` is the tail. We use the `::` operator to desconstruct here.
+> _Obs_: The `h` is the head and the `t` is the tail. We use the `::` operator to desconstruct here.
 
 Another example:
 
@@ -156,13 +156,13 @@ let rec length l =
     | _ :: t -> 1 + length t;;
 ```
 
-> *Obs*: This function will not operate just a list of integers as the latest example, it'll operates lists of any types.
+> _Obs_: This function will not operate just a list of integers as the latest example, it'll operates lists of any types.
 > So the list in the parameter is of type `'a list` (pronounced **alpha list**), and the function is called **polymorphic** since the type isn't relevant.
 
 Let's write a `map` function that will take a function and a list as parameters and will apply the function to every element of the list and return results, just like a map:
 
 ```ocaml
-let rec map f l = 
+let rec map f l =
     match l with
     | [] -> []
     | h :: t -> f h :: map f t;;
@@ -180,7 +180,7 @@ Error: This expression has type int but an expression was expected of type
          int list
 ```
 
-> *Obs*: The reason the second returns an error is because total returns `int` and `map` should return a `list`, that's why in the first one we passed a `list` of `lists`, so for each list `total` returned an `int` and the `map` function returned and `list` of `ints`;
+> _Obs_: The reason the second returns an error is because total returns `int` and `map` should return a `list`, that's why in the first one we passed a `list` of `lists`, so for each list `total` returned an `int` and the `map` function returned and `list` of `ints`;
 
 Example using anonymous function:
 

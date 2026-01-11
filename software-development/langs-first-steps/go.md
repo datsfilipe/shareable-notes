@@ -1,5 +1,5 @@
 ---
-title: "GO first impressions"
+title: 'GO first impressions'
 ---
 
 GO seems a very straightforward language, that's how it looks to me when I read GO code.

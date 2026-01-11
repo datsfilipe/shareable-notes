@@ -1,5 +1,5 @@
 ---
-title: "Good Practices in Information Security"
+title: 'Good Practices in Information Security'
 ---
 
 Actions that help ensure information security:
@@ -20,7 +20,7 @@ Some good practices on this matter:
 - Passwords must have minimum of eight characters;
 - Passwords must be changed frequently;
 - In case of data leaking of some service, credentials must be changed;
-- Passwords must have alphanumeric characters, such as @#$%&*, etc;
+- Passwords must have alphanumeric characters, such as @#$%&\*, etc;
 - Passwords must not contain user or company names;
 - Not utilizing same password for multiple accounts;
 - And of course, don't inform third parties about you passwords.
@@ -59,11 +59,11 @@ An efficient login process should be:
 
 Imagine that you are programming the messages that will appear to the user during the logon process. According to the guidelines we saw, observe the messages that should or should not appear to the user:
 
-| Passwords | Valid or invalid | Justification
-|-----------|------------------|--------------
-| Your password is incorrect. | Invalid |  This message must not appear for the user, as the system must not indicate which part of the input data is correct or incorrect, such as, for example, ID or password, in case of any error.
-| Your login details are incorrect. You have two more attempts. | Valid | his message may appear to the user as the system must limit the number of unsuccessful login attempts, such as a maximum of three attempts.
-| This system can be accessed by anyone. | Invalid | This message should not appear to the user. On the contrary, the system must inform that the system should only be accessed by authorized persons.
+| Passwords                                                     | Valid or invalid | Justification                                                                                                                                                                                |
+| ------------------------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Your password is incorrect.                                   | Invalid          | This message must not appear for the user, as the system must not indicate which part of the input data is correct or incorrect, such as, for example, ID or password, in case of any error. |
+| Your login details are incorrect. You have two more attempts. | Valid            | his message may appear to the user as the system must limit the number of unsuccessful login attempts, such as a maximum of three attempts.                                                  |
+| This system can be accessed by anyone.                        | Invalid          | This message should not appear to the user. On the contrary, the system must inform that the system should only be accessed by authorized persons.                                           |
 
 ### Virus
 
@@ -92,13 +92,13 @@ Companies should periodically do backup of data in order to prevent them from da
 
 Main differences between them:
 
-| Symmetric key | Asymmetric key | Hash function
-|---------------|----------------|--------------
-| Uses **unique key** to encrypt and decrypt message. | It uses a **key pair**, where one key is used for encryption and the other for decryption. | **It does not require any keys** for encryption and decryption.
-| **It is faster**, but **less reliable** in terms of **security**. | **It is less fast**, but **more reliable** in terms of **security**. | **It is less fast**, but **more reliable** in terms of **security**.
-| It was introduced to quickly run **cryptographic processes**. | It was introduced to **overcome the key exchange problem** in symmetric key. | It was introduced to provide **more security**.
-| If for some reason the key is compromised/broken on the network, **both the sender and the receiver will be lost.** | There is **loss** only to the **owner**. | There is no key to compromise.
-| It's **less complex**. | It's **more complex**. | It has **medium complexity**.
+| Symmetric key                                                                                                       | Asymmetric key                                                                             | Hash function                                                        |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| Uses **unique key** to encrypt and decrypt message.                                                                 | It uses a **key pair**, where one key is used for encryption and the other for decryption. | **It does not require any keys** for encryption and decryption.      |
+| **It is faster**, but **less reliable** in terms of **security**.                                                   | **It is less fast**, but **more reliable** in terms of **security**.                       | **It is less fast**, but **more reliable** in terms of **security**. |
+| It was introduced to quickly run **cryptographic processes**.                                                       | It was introduced to **overcome the key exchange problem** in symmetric key.               | It was introduced to provide **more security**.                      |
+| If for some reason the key is compromised/broken on the network, **both the sender and the receiver will be lost.** | There is **loss** only to the **owner**.                                                   | There is no key to compromise.                                       |
+| It's **less complex**.                                                                                              | It's **more complex**.                                                                     | It has **medium complexity**.                                        |
 
 ### Digital Certificates
 

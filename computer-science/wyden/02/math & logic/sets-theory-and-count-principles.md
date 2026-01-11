@@ -1,14 +1,14 @@
 ---
-title: "Sets Theory and Count Principles"
+title: 'Sets Theory and Count Principles'
 ---
 
 ## Set Representation
 
 One of the ways to represent:
 
-$A = \{ n1, n2, n3 ... n \}$ ***--> Infinite Set***
+$A = \{ n1, n2, n3 ... n \}$ **_--> Infinite Set_**
 
-$B = \{ n2, n3 \}$ ***--> Finite Set***
+$B = \{ n2, n3 \}$ **_--> Finite Set_**
 
 We can say so that:
 
@@ -20,16 +20,16 @@ We can say so that:
 
 Symbols:
 
-- ***Empty Set: $\emptyset$*** or ***$\{\}$***
-- ***$\Leftrightarrow$ means "if and only if" in logic.***
-- ***$\lor$ means "or" in logic.***
-- ***$\land$ means "and" in logic.***
+- **_Empty Set: $\emptyset$_** or **_$\{\}$_**
+- **_$\Leftrightarrow$ means "if and only if" in logic._**
+- **_$\lor$ means "or" in logic._**
+- **_$\land$ means "and" in logic._**
 
 ## Brief Explanation of Progressions
 
 Aritmetic Progression: a1, a2, a3 ... an
 
-Formula: an = a1 + (n - 1) * r
+Formula: an = a1 + (n - 1) \* r
 a1 = first element
 n = position we want to know
 r = ratio
@@ -44,23 +44,23 @@ $A = \{ x | p(x) \}$
 
 Basically, it means that A is a set of all x that satisfies the property p(x).
 
-***Example:***
+**_Example:_**
 
 $A = \{ x | x^2 = 9 \}$
 
 - So, the only values that elevates to 2 and results in 9 are 3 and -3. Then, the solution in steps is:
 
-$x^2 = 9 \Leftrightarrow x^2 - 9 = 0 \Leftrightarrow (x - 3)(x + 3) = 0$ ***[notable product]***
+$x^2 = 9 \Leftrightarrow x^2 - 9 = 0 \Leftrightarrow (x - 3)(x + 3) = 0$ **_[notable product]_**
 
-- ***The product of two numbers is zero if and only if one of them is zero.***
+- **_The product of two numbers is zero if and only if one of them is zero._**
 
 So, $(x - 3)(x + 3) = 0 \Leftrightarrow x - 3 = 0 \lor x + 3 = 0 \Leftrightarrow x = 3 \lor x = -3$
 
 Result: $A = \{ 3, -3 \}$
 
-- ***$x^2 -9 = 0$ is a quadratic equation. So we could also use the Bhaskara's Formula to solve it.***
+- **_$x^2 -9 = 0$ is a quadratic equation. So we could also use the Bhaskara's Formula to solve it._**
 
-***Example 2:***
+**_Example 2:_**
 
 $B = \{ x \in \mathbb{Z} | x^2 = 9 \}$
 
@@ -70,43 +70,43 @@ Result: $B = \{ 3, -3 \}$
 
 ## Empty Set
 
-It's valid to say that $\emptyset \subset X$ for any set *X*.
+It's valid to say that $\emptyset \subset X$ for any set _X_.
 
 ## Numerical Sets
 
-- ***Natual Numbers ( $\mathbb{N}$ )***: $\{ 1, 2, 3, ... \}$
-    - *Some authors include 0 in the set of natural numbers and others don't.*
-- ***Integers ( $\mathbb{Z}$ )***: $\{ ..., -2, -1, 0, 1, 2, ... \}$
-- ***Rational Numbers ( $\mathbb{Q}$ )***: $\{ \frac{p}{q} | p, q \in \mathbb{Z} \land q \neq 0 \}$
-    - *$p$ is the numerator and $q$ is the denominator.*
-    - Every $x \in \mathbb{Q}$ can be represented as a fraction.
-- ***Real Numbers ( $\mathbb{R}$ )***: $\{ x | x \in \mathbb{Q} \lor x \notin \mathbb{Q} \}$
-- ***Irrational Numbers ( $\mathbb{R} - \mathbb{Q}$ )***: $\{ x | x \notin \mathbb{Q} \}$
-    - *Irrational numbers are real numbers that cannot be represented as a fraction, because their decimal part is infinite and non-repeating.*
-    - *Example: $\pi$*
+- **_Natual Numbers ( $\mathbb{N}$ )_**: $\{ 1, 2, 3, ... \}$
+  - _Some authors include 0 in the set of natural numbers and others don't._
+- **_Integers ( $\mathbb{Z}$ )_**: $\{ ..., -2, -1, 0, 1, 2, ... \}$
+- **_Rational Numbers ( $\mathbb{Q}$ )_**: $\{ \frac{p}{q} | p, q \in \mathbb{Z} \land q \neq 0 \}$
+  - _$p$ is the numerator and $q$ is the denominator._
+  - Every $x \in \mathbb{Q}$ can be represented as a fraction.
+- **_Real Numbers ( $\mathbb{R}$ )_**: $\{ x | x \in \mathbb{Q} \lor x \notin \mathbb{Q} \}$
+- **_Irrational Numbers ( $\mathbb{R} - \mathbb{Q}$ )_**: $\{ x | x \notin \mathbb{Q} \}$
+  - _Irrational numbers are real numbers that cannot be represented as a fraction, because their decimal part is infinite and non-repeating._
+  - _Example: $\pi$_
 
 ## Interval Sets
 
-- *We can represent numbers as a line, where each point is a $x$ that $\in \mathbb{R}$.*
-- *So we can represent sets of numbers as intervals between points in the line.*
+- _We can represent numbers as a line, where each point is a $x$ that $\in \mathbb{R}$._
+- _So we can represent sets of numbers as intervals between points in the line._
 
-***Example:***
+**_Example:_**
 
 $\{x \in \mathbb{R} | a < x < b\}$
 
-- *This set represents all real numbers between $a$ and $b$, being $a$ and $b$ excluded.*
+- _This set represents all real numbers between $a$ and $b$, being $a$ and $b$ excluded._
 
-***Example 2:***
+**_Example 2:_**
 
 $\{x \in \mathbb{R} | x \geq a\}$
 
-- *This set represents all real numbers greater than or equal to $a$. It's the same as $[a, +\infty)$ (other representation form).*
+- _This set represents all real numbers greater than or equal to $a$. It's the same as $[a, +\infty)$ (other representation form)._
 
 ## Absolute Value
 
 We can relate algebraic representations with geometric representations with the concept of axies in a cartesian plane.
 
-- *Example, we have $|x - 1| = 3$, that means the distance between x and 1 corresponds to 3 units. The solution is a set of the possible X values, as we see below:*
+- _Example, we have $|x - 1| = 3$, that means the distance between x and 1 corresponds to 3 units. The solution is a set of the possible X values, as we see below:_
 
 $S = \{4, -2\}$
 
@@ -114,11 +114,11 @@ $S = \{4, -2\}$
 
 ### Venn Diagrams
 
-- *The logic is simple: Basically we have a $U$ set called universe and all the sets in the operaton must be a subset of $U$.*
+- _The logic is simple: Basically we have a $U$ set called universe and all the sets in the operaton must be a subset of $U$._
 
 By that we can have:
 
-- *$U - X = X'$ ($X'$ is the complementary set of $x$, meaning is what it needs to be equal to $U$)*
+- _$U - X = X'$ ($X'$ is the complementary set of $x$, meaning is what it needs to be equal to $U$)_
 
 Notation for operatons:
 
@@ -128,47 +128,47 @@ Notation for operatons:
 
 ### Factorial
 
-- *Formula: $n! = n * (n - 1) * (n - 2) * ... * 1$*
-- *Conventions: $0! = 1$*
+- _Formula: $n! = n _ (n - 1) _ (n - 2) _ ... _ 1$_
+- _Conventions: $0! = 1$_
 - **Note that the product of consecutive integers can be represented as a factorial.**
-    - Ex: $10 * 11 * 12 * 13 * 14 = \frac{9!}{9!} * 10 * 11 * 12 * 13 * 14 = \frac{14!}{9!}$
+  - Ex: $10 * 11 * 12 * 13 * 14 = \frac{9!}{9!} * 10 * 11 * 12 * 13 * 14 = \frac{14!}{9!}$
 
 ### Arrangements
 
-- *Formula: $A_{n}^{p} = \frac{n!}{(n - p)!}$*
-    - Ex (10 objects for 3 piles): $10 * 9 * 8 = \frac{10!}{(10 - 3)!} = \frac{10!}{7!} = 10 * 9 * 8 = 720$
+- _Formula: $A_{n}^{p} = \frac{n!}{(n - p)!}$\_
+  - Ex (10 objects for 3 piles): $10 * 9 * 8 = \frac{10!}{(10 - 3)!} = \frac{10!}{7!} = 10 * 9 * 8 = 720$
 
 #### Permutation
 
-- *Particular arrangement case where $p = n$*
-- *Formula: $A_{n}^{n} = P_{n} = n!$
-- *A good example of it are anagrams.*
+- _Particular arrangement case where $p = n$_
+- \*Formula: $A_{n}^{n} = P_{n} = n!$
+- _A good example of it are anagrams._
 
 #### Combination
 
-- ***Ordination doesn't matter.***
-    - Ex. with sets: $\{a, b\} = \{b, a\}$
-- *Formula: $C_{p}^{n} = \frac{A_{p}^{n}}{p!} = \frac{n!}{(n-p)!p!}$*
-- ***Basically we divide by $p!$ the permutation result to eliminate the repetitions/copies of sets.***
+- **_Ordination doesn't matter._**
+  - Ex. with sets: $\{a, b\} = \{b, a\}$
+- _Formula: $C_{p}^{n} = \frac{A*{p}^{n}}{p!} = \frac{n!}{(n-p)!p!}$*
+- **_Basically we divide by $p!$ the permutation result to eliminate the repetitions/copies of sets._**
 
 #### With Repetition
 
-- *Formula: $AR_{p}^{n} = n * n * ... * n = n^p$*
+- _Formula: $AR\_{p}^{n} = n _ n _ ... _ n = n^p$\*
 
 ##### Permutation With Repetition
 
-- *Formula: $AR_{p, q, ... t}^{n} = \frac{n!}{p! * q! * ... * t!}$*
-    - Ex. The anagram of the word ARARAQUARA: $AR_{5, 3}^{10} = \frac{10!}{5!*3!} = 7 * 8 * 9 * 10 = 5040$
-        - 5 is the number of times A appears in the word
-        - 3 is the number of times R appears in the word
-        - **If you trade positions between these letters, you will end up with the same anagram.**
+- _Formula: $AR\_{p, q, ... t}^{n} = \frac{n!}{p! _ q! _ ... _ t!}$\*
+  - Ex. The anagram of the word ARARAQUARA: $AR_{5, 3}^{10} = \frac{10!}{5!*3!} = 7 * 8 * 9 * 10 = 5040$
+    - 5 is the number of times A appears in the word
+    - 3 is the number of times R appears in the word
+    - **If you trade positions between these letters, you will end up with the same anagram.**
 
 ###### Circular Permutation
 
-- *Formula: $PC_{n} = \frac{n!}{n} = (n - 1)!$
+- \*Formula: $PC_{n} = \frac{n!}{n} = (n - 1)!$
 
 ##### Combination With Repetition
 
-- *Formula: $CR_{p}^{n} = PR_{n, p - 1}^{n + p - 1}$*
-    - Ex. 3 types, 8 items:
-        - $CR_{3}^{8} = PR_{8, 2}^{10} = \frac{10!}{8! * 2!} = 45$
+- _Formula: $CR_{p}^{n} = PR*{n, p - 1}^{n + p - 1}$*
+  - Ex. 3 types, 8 items:
+    - $CR_{3}^{8} = PR_{8, 2}^{10} = \frac{10!}{8! * 2!} = 45$

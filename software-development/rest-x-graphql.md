@@ -1,5 +1,5 @@
 ---
-title: "Rest x GraphQL"
+title: 'Rest x GraphQL'
 ---
 
 ## Rest
@@ -18,7 +18,7 @@ Let's see an example:
     "id": 1,
     "name": "John Doe",
     "email": "johndoe@dubdubdodo.com"
-  },
+  }
 ]
 ```
 
@@ -35,9 +35,9 @@ What if you want to get the user's posts?
     "author": {
       "id": 1,
       "name": "John Doe",
-      "email": "johndoe@dubdubdodo.com",
+      "email": "johndoe@dubdubdodo.com"
     }
-  },
+  }
 ]
 ```
 
@@ -128,9 +128,9 @@ So for the example above, the server will call the `getUser` resolver, and then 
 
 The execution flow in table form:
 
-| Task | State | Step | Context |
-| --- | --- | --- | --- |
-| 3.1 | run | Query.getUser | |
-| 3.2 | run | User.name and User.posts | for user returned in 3.1 |
-| 3.3 | run | Post.title and Post.author | for each post returned in 3.2 |
-| 3.4 | run | User.name | for each author returned in 3.3 |
+| Task | State | Step                       | Context                         |
+| ---- | ----- | -------------------------- | ------------------------------- |
+| 3.1  | run   | Query.getUser              |                                 |
+| 3.2  | run   | User.name and User.posts   | for user returned in 3.1        |
+| 3.3  | run   | Post.title and Post.author | for each post returned in 3.2   |
+| 3.4  | run   | User.name                  | for each author returned in 3.3 |

@@ -1,5 +1,5 @@
 ---
-title: "Serverless"
+title: 'Serverless'
 ---
 
 ## What is Serverless?
@@ -22,4 +22,4 @@ Serverless is a cloud computing execution model where the cloud provider dynamic
 - **Containers**: Package your application with its dependencies, simplifying the deployment process, but still have some challenges.
 - **Serverless**: You only have to worry about your application code. Use an Event-Driven approach to trigger your functions. The cloud provides FaaS (Functions as a Service).
 
-*Note: I'm not gonna dive too deep into this subject, cause I'm already bored.*
+_Note: I'm not gonna dive too deep into this subject, cause I'm already bored._

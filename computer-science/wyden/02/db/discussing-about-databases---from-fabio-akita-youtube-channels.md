@@ -1,5 +1,5 @@
 ---
-title: "Discussing about databases - From Fabio Akita YouTube channels"
+title: 'Discussing about databases - From Fabio Akita YouTube channels'
 ---
 
 ## B-tree

@@ -1,6 +1,7 @@
 ---
-title: "Fork My Brain"
+title: 'Fork My Brain'
 ---
+
 <div align="center">
 
 # Fork My Brain
@@ -33,7 +34,6 @@ Have a good read!
         </td>
     </tr>
 </table>
-
 
 ## License
 

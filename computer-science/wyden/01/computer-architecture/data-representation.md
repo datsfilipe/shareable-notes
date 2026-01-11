@@ -1,5 +1,5 @@
 ---
-title: "Data Representation"
+title: 'Data Representation'
 ---
 
 ## Computer Systems
@@ -13,7 +13,7 @@ In order to convert bytes or bits to bits or bytes, we use rule of three simple.
 - An ordered group of bytes = word;
 - An ordered group of words = registry;
 - An ordered group of registries = archive;
-- An ordered group of  archives = database.
+- An ordered group of archives = database.
 
 ### Multiples and Submultiples
 
@@ -30,7 +30,8 @@ In order to convert bytes or bits to bits or bytes, we use rule of three simple.
 To convert from one value to another, we need to multiply (choose the power of two or then for it). And we consider the distance between each, not the value itself.
 
 Ex: to convert from G to T, we multiply with negative power since the result will be tinier than the previous value. Here's 52,9 G to T:
-  - *52,9 x 10⁻³ = 0,0529 TB; see? the power is negative.*
+
+- _52,9 x 10⁻³ = 0,0529 TB; see? the power is negative._
 
 On opposition, if the are converting to a lower unit abbreviation, then the power will be positive.
 
@@ -46,12 +47,14 @@ On opposition, if the are converting to a lower unit abbreviation, then the powe
 Before everything:
 
 Numeric Base:
+
 - Decimal (0, 1, 2, 3, 4, 5, 6, 7, 8, 9): Most used numeric base;
 - Binary (0, 1): Base used by computers on data processing;
 - Octal (0, 1, 2, 3, 4, 5, 6, 7) and Hexadecimal (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, F): Multiples of binary base.
 
 Now, the numeric systems:
-- Positional: Every digit have a different relative value according to it's position in the number. Ex: 444 (first value is 400, second is 40 and last is 4); Ex 2: 36¹⁰ (10 is the base), can be written as 3 * 10¹ (10 = base, 1 = position) + 6 * 10⁰ (10 = base, 0 = position);
+
+- Positional: Every digit have a different relative value according to it's position in the number. Ex: 444 (first value is 400, second is 40 and last is 4); Ex 2: 36¹⁰ (10 is the base), can be written as 3 _ 10¹ (10 = base, 1 = position) + 6 _ 10⁰ (10 = base, 0 = position);
 - Non-positional: Every digit has the same value independent of his position. Ex: X is roman numeric system is always 10 (XXX = 30, XL = 40, LX = 60);
 
 ### Operations
@@ -65,32 +68,32 @@ Now, the numeric systems:
 
 `Obs: if minuendo is bigger than subtraendo, just subtract value and write down, else if subtraendo is bigger, take one from the number in right.`
 
-  - Base 10: Is as everyone knows;
-  - Base 16: The take one value has 16 as value. Ex: if I have 4 - 7, it's impossible, so 4 gets one value from right, so it's not 14, but 20, since we are getting 16 as value, and the result is D;
-  - Base 2:
-    - 0 - 1 = 1 (taking a value from the digit on the right of it);
-    - 1 - 1 = 0;
-    - 1 - 0 = 1;
-    - 0 - 1 = 0, but:
-      - The zero of this column is worth 2.
-      - All zeros on the left to the first "number 1" are worth 1.
-      - This "first number 1" is worth 0 (zero).
-      - If it happens again 0 - 1, the process will be repeated.
+- Base 10: Is as everyone knows;
+- Base 16: The take one value has 16 as value. Ex: if I have 4 - 7, it's impossible, so 4 gets one value from right, so it's not 14, but 20, since we are getting 16 as value, and the result is D;
+- Base 2:
+  - 0 - 1 = 1 (taking a value from the digit on the right of it);
+  - 1 - 1 = 0;
+  - 1 - 0 = 1;
+  - 0 - 1 = 0, but:
+    - The zero of this column is worth 2.
+    - All zeros on the left to the first "number 1" are worth 1.
+    - This "first number 1" is worth 0 (zero).
+    - If it happens again 0 - 1, the process will be repeated.
 
 ## Conversion
 
 ### Convert X Base Number to Base 10 Number
 
-Ex. 214 in base 5: 2 * 5² + 1 * 5¹ + 4 * 5⁰; 50 + 5 + 4 = 59 in base 10.
+Ex. 214 in base 5: 2 _ 5² + 1 _ 5¹ + 4 \* 5⁰; 50 + 5 + 4 = 59 in base 10.
 
 ### Convert From Base X to Base Y
 
 Ex. 214 in base 5; We always do the step before, so first convert to base 10, base 10 will always be the intermediate, and then convert to, let's say, base 7; We do divisions until the quotient is equal to zero, and then use the rests from right to left as the result (numbers between parenthesis are the rest):
-  59 / 7 = 8 **(3)**; 8 / 7 = 1 **(1)**; 1 / 7 = 0 **(1)**; Result, 113 in base 7.
+59 / 7 = 8 **(3)**; 8 / 7 = 1 **(1)**; 1 / 7 = 0 **(1)**; Result, 113 in base 7.
 
 ### Binary
 
-In binary, a bit that has the value of 0 should not be counted on conversion, so the number 101 in binary would be: **1 * 2² + 1 * 2⁰; 4 + 1 = 5**; see? the bit with value zero doesn't count.
+In binary, a bit that has the value of 0 should not be counted on conversion, so the number 101 in binary would be: **1 _ 2² + 1 _ 2⁰; 4 + 1 = 5**; see? the bit with value zero doesn't count.
 
 **TODO: DIDN'T UNDERSTOOD THE CONVERSION WITHOUT INTERMEDIATE OF BASE 10, SHOULD REVIEW!**
 
@@ -104,7 +107,7 @@ In binary, a bit that has the value of 0 should not be counted on conversion, so
 ### ASCII (American Standard Code for Information Interchange)
 
 Every character has 7 bits and ASCII have an amount of 128 characters (2⁷) that can be expressed in hexadecimal. The 0 and 1F characters cannot be impressed because they are characters of controlling.
-ASCII has letters (uppercase and lowercase), punctuation marks (=+,.;:~...) and math symbols (+=-*...).
+ASCII has letters (uppercase and lowercase), punctuation marks (=+,.;:~...) and math symbols (+=-\*...).
 
 ### Unicode
 

@@ -1,5 +1,5 @@
 ---
-title: "Arrays Data Structure"
+title: 'Arrays Data Structure'
 ---
 
 - javascript arrays are not exactly an array...
@@ -8,7 +8,7 @@ title: "Arrays Data Structure"
 - let's see `ArrayBuffer` in JavaScript in order to understand more about arrays
 
 ```js
-const a = new ArrayBuffer(6); 
+const a = new ArrayBuffer(6);
 ```
 
 - "a" value is `ArrayBuffer { [Uint8Contents]: <00 00 00 00 00 00>, byteLength: 6 }`
@@ -36,7 +36,7 @@ const a16 = new Uint16Array(a);
 - instead of 8 bits, now we're using 16 bits to interpret the same memory space
 
 ```js
-a16[2] = 0x4545
+a16[2] = 0x4545;
 ```
 
 - now "a" value is: `ArrayBuffer { [Uint8Contents]: <2d 00 2d 00 45 45>, byteLength: 6 }`

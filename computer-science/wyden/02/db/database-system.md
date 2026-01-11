@@ -1,5 +1,5 @@
 ---
-title: "Database System"
+title: 'Database System'
 ---
 
 # 1
@@ -16,10 +16,10 @@ title: "Database System"
 - The data structure is a math function denominated **relation**.
 - SQL was the language created by IBM to manipulate the data in the relational model.
 - LAMP (Linux, Apache, MySQL, PHP) is a stack of technologies that was very popular in the 2000s.
-    - MySQL is a DBMS, by Oracle, that implements the relational model.
+  - MySQL is a DBMS, by Oracle, that implements the relational model.
 - The Ingres project, from the University of California, Berkeley, has originated some cool things:
-    - Sybase, which was later associated with Microsoft to create SQL Server.
-    - Postgres (from Post Ingres), which extends the model with POO concepts.
+  - Sybase, which was later associated with Microsoft to create SQL Server.
+  - Postgres (from Post Ingres), which extends the model with POO concepts.
 
 # 2
 

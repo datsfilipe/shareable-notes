@@ -1,5 +1,5 @@
 ---
-title: "Predicate Calculus"
+title: 'Predicate Calculus'
 ---
 
 # Simple and Composed Open Sentences
@@ -15,7 +15,7 @@ The open sentence is a functional proposition, i.e., it is a proposition that de
 
 Universal set, Universe, or Domain of Discourse is the set of all possible values for the variable.
 
-i.e., 
+i.e.,
 
 - $x + 15 = 8$
 - $x = -7$ (truth value)
@@ -47,17 +47,17 @@ A predicate assigns to the subject a property or a relation.
 i.e., $p(x): x^2 > 4$
 
 - Where the universe is $\mathbb{U} = {3,4,5,6,7}$
-    - $T_p = \mathbb{U}$
-    - So, $\forall$ $x \in \mathbb{U}: x^2 > 4$
-    - This is called a **universal quantifier** because it is true for all values of the universe
+  - $T_p = \mathbb{U}$
+  - So, $\forall$ $x \in \mathbb{U}: x^2 > 4$
+  - This is called a **universal quantifier** because it is true for all values of the universe
 - Where the universe is $\mathbb{U} = {0,1,2,3,4}$
-    - $T_p = {5}$
-    - So, $\exists$ $x \in \mathbb{U}: x^2 > 4$
-    - This is called a **existential quantifier** because it is true for some values of the universe
+  - $T_p = {5}$
+  - So, $\exists$ $x \in \mathbb{U}: x^2 > 4$
+  - This is called a **existential quantifier** because it is true for some values of the universe
 - Where the universe is $\mathbb{U} = {-1,0,1,2,3}$
-    - $T_p = {3,4}$
-    - So, $\exists!$ $x \in \mathbb{U}: x^2 > 4$ ($\exists!$ means that there is only one element that satisfies the proposition)
-    - This is called a **unique existential quantifier** because it is true for only one value of the universe
+  - $T_p = {3,4}$
+  - So, $\exists!$ $x \in \mathbb{U}: x^2 > 4$ ($\exists!$ means that there is only one element that satisfies the proposition)
+  - This is called a **unique existential quantifier** because it is true for only one value of the universe
 
 **What if the sentence has more than one variable?**
 
@@ -79,6 +79,6 @@ i.e., $p(x, y): 2x + y < 11$
 - i.e., $p(x): (\forall x \in \mathbb{R})(x^2 \geq 0)$
 - $\neg p(x): (\exists x \in \mathbb{R})(x^2 < 0)$
 
----------------
+---
 
 Doesn't take too much to understand the obvious importance of those topics for programming, anybody that has ever programmed in any language can make parallels with the topics presented and programming concepts.

@@ -1,5 +1,5 @@
 ---
-title: "Big-O Time Complexity"
+title: 'Big-O Time Complexity'
 ---
 
 - it's a way to categorize your algorithms time or memory requirements based on input
@@ -11,11 +11,11 @@ An example:
 ```ts
 function sum_char_codes(n: string): number {
   let sum = 0;
-    for (let i = 0; i < n.length; ++i) {
-        sum += n.charCodeAt(i);
-    }
+  for (let i = 0; i < n.length; ++i) {
+    sum += n.charCodeAt(i);
+  }
 
-    return sum;
+  return sum;
 }
 ```
 

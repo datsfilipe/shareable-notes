@@ -1,5 +1,5 @@
 ---
-title: "Data Modeling: Logical & Physical Modeling"
+title: 'Data Modeling: Logical & Physical Modeling'
 ---
 
 # 01
@@ -50,7 +50,7 @@ Let's use the **Dependents Table** again, but now with the **Employees Table** a
 
 The reason of it is because the tables are related, so we should have a way to access what is the responsible employee from the dependent table, and we do that by referring the employee with a FK.
 
-- *The value of the FK must exist in the PK of the table that it refers to*.
+- _The value of the FK must exist in the PK of the table that it refers to_.
 
 # 02
 

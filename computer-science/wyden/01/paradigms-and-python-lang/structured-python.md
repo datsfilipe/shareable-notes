@@ -1,5 +1,5 @@
 ---
-title: "Structured Python"
+title: 'Structured Python'
 ---
 
 ## Structures of Decision and Loop in Python
@@ -105,6 +105,7 @@ x = math.sqrt(5) # accessing and using methods from module with dot
 - **Math:** Used for math operations;
 - **Random:** Used to generate pseudo random int numbers or sequences;
 - **Smtplib:** Used for emails, it use the **SMTP** or **ESMTP** services and can send emails to any machine in the internet, example of use:
+
   ```python
   # importing necessary modules
   from email.mime.multipart import MIMEMultipart
@@ -137,6 +138,7 @@ x = math.sqrt(5) # accessing and using methods from module with dot
 
   print('message sent')
   ```
+
 - **Time:** Has a lot of functions for timers, time values, etc;
 - **Tkinter:** Python standard interface for Tk GUI toolkit. Example:
   ```python
@@ -219,9 +221,9 @@ finally:
   # it's executed independent of what occurs - optional
 ```
 
-*Note: At least one `except` instruction is mandatory, independent if it's specific or generic.*
+_Note: At least one `except` instruction is mandatory, independent if it's specific or generic._
 
-*Note: Events treatment are similar to exceptions, and the events are, for example, a click in the button of the interface.*
+_Note: Events treatment are similar to exceptions, and the events are, for example, a click in the button of the interface._
 
 # Footer
 

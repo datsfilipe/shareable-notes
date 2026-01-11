@@ -1,18 +1,18 @@
 ---
-title: "Create and Manipulate Objects in Postgresql"
+title: 'Create and Manipulate Objects in Postgresql'
 ---
 
 ## Architecture
 
 Postgresql uses client-server model.
 
-***Server Processes:***
+**_Server Processes:_**
 
 - Manage database archives
 - Manage connections between applications and SGDB
 - Verify and execute commands sent by clients on the database
 
-***Client Processes:***
+**_Client Processes:_**
 
 - Require SGDB access
 - Send manipulation commands
@@ -89,13 +89,13 @@ dtsf=$ SELECT * FROM client;
 
 ## Constraints
 
-***What are constraints?***
+**_What are constraints?_**
 
 - Constraints are rules that can be applied to a column or a table.
 - They are part of the database schema definition.
 - They define certain properties that data in a database must comply with.
 
-***Common kinds of constraints are:***
+**_Common kinds of constraints are:_**
 
 - **not null** - each value in a column must not be NULL
 - **unique** - value(s) in specified column(s) must be unique for each row in a table
@@ -107,11 +107,11 @@ dtsf=$ SELECT * FROM client;
 
 ### States of a Transaction
 
-- ***Active***: The transaction is running, executing queries (read and/or write).
-- ***Partially Committed***: The transaction has finished executing.
-    * ***Committed***: After succeeded validation, the transaction is committed and the changes are made permanent.
-    * ***Failed***: If validation fails or the transaction is aborted, the transaction is failed.
-- ***Finished***: Transaction get out of the system.
+- **_Active_**: The transaction is running, executing queries (read and/or write).
+- **_Partially Committed_**: The transaction has finished executing.
+  - **_Committed_**: After succeeded validation, the transaction is committed and the changes are made permanent.
+  - **_Failed_**: If validation fails or the transaction is aborted, the transaction is failed.
+- **_Finished_**: Transaction get out of the system.
 
 ### Postgresql Transactions
 
@@ -129,9 +129,9 @@ END-- End the transaction
 
 This scenario might bring the following problems:
 
-- ***Problem 1: Lost Update***: When two transactions that access the same data have their operations intercalated in a way that might left the data incorrect.
-- ***Problem 2: Temporary Update***: When a transaction updates a database item and then fails for some reason, while in the meantime the item is read by another transaction before being changed back to its original value.
-- ***Problem 3: Incorrect Summary***: When a transaction reads a database item that is being updated by another transaction and then performs a calculation based on the old value.
-- ***Problem 4: Non-Repeatable Read***: When a transaction reads the same item twice and the value is altered by another transaction between the two reads.
+- **_Problem 1: Lost Update_**: When two transactions that access the same data have their operations intercalated in a way that might left the data incorrect.
+- **_Problem 2: Temporary Update_**: When a transaction updates a database item and then fails for some reason, while in the meantime the item is read by another transaction before being changed back to its original value.
+- **_Problem 3: Incorrect Summary_**: When a transaction reads a database item that is being updated by another transaction and then performs a calculation based on the old value.
+- **_Problem 4: Non-Repeatable Read_**: When a transaction reads the same item twice and the value is altered by another transaction between the two reads.
 
 **OBS: These problems occurs only with uncontrolled transactions and multiple clients.**
